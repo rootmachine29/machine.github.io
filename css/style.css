@@ -1,0 +1,6526 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 65.5%;
+    background: #fff;
+    width: 100%;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+}
+
+::-webkit-scrollbar{
+    width: 0.8rem;
+    height: 100%;
+}
+
+::-webkit-scrollbar-track{
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#4eff2f;
+    border-radius: 3rem;
+}
+
+::selection{
+    background: #4eff2f;
+}
+
+
+/* ###############   Header Navbar Styling   ################ */
+
+#header .navbar .logo img{
+    width: 15rem;
+    height: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+    align-self: center;
+    display: block;
+}
+
+#header .navbar .nav-items a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    letter-spacing: 0.1px;
+    align-self: center;
+    margin: 0 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+#header .navbar .nav-items a:hover{
+    color:  #4eff2f;
+}
+
+#header .navbar .nav-items{
+    display: flex;
+    margin-right: 2rem;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 400;
+}
+
+#header .navbar{
+    background: #fff;
+    box-shadow: 0px 2px 50px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .navbar .nav-items .line{
+    width: 7rem;
+    height: 0.1rem;
+    background: #121212;
+    align-self: center;
+}
+
+
+
+/* #################   Section 1 Styling   ################ */
+
+.bg{
+    background: url("../images/bg.png");
+    width: 60rem;
+    height: 60rem;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    z-index: 0;
+    top: 15%;
+    left: 38%;
+}
+
+#section-1{
+    position: relative;
+}
+
+#section-1 .section-1-content-1 h1{
+    font-size: 7rem;
+    cursor: default;
+}
+
+#section-1 .section-1-content-1 p{
+    font-size: 2.7rem;
+    cursor: default;
+    line-height: 1.2;
+    padding-top: 1rem;
+}
+
+#section-1 .section-1-content-1 {
+    padding-top: 12rem;
+    margin-left: 5rem;
+    z-index: 200;
+    padding-bottom: 10rem;
+}
+
+#section-1 .section-1-content-1 a{
+    text-decoration: none;
+    background: #000000;
+    display: inline-block;
+    margin-top: 4rem;
+    border-radius: 0.3rem;
+    padding-right: 3.3rem;
+    padding-left: 2.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+#section-1 .section-1-content-1 a img{
+    vertical-align: middle;
+}
+
+#section-1 .section-1-content-1 a h3{
+    display: inline-block;
+    color: #fff;
+    font-size: 2.2rem;
+    vertical-align: middle;
+    padding-left: 0.9rem;
+    line-height: 4.3rem;
+    letter-spacing: 0.2px
+}
+
+#section-1 .section-1-content-1 a:hover{
+    background: #333;
+}
+
+/* #################   Section 2 Styling   ################ */
+
+#section-2{
+    margin-top: 2rem;
+}
+
+#section-2 .section-2-content-1 .line{
+    width: 100vw;
+    height: 0.2rem;
+    margin-right: 5rem;
+    background: #4eff2f;
+}
+
+#section-2 .section-2-content-1 .work h3{
+    display: inline-block;
+    font-size: 2.2rem;
+    padding-left: 0.9rem;
+    vertical-align: middle;
+    padding-right: 0.5rem;
+}
+
+#section-2 .section-2-content-1 .work img{
+    vertical-align: middle;
+}
+
+#section-2 .section-2-content-1 .work{
+    padding-left: 5rem;
+}
+
+
+#section-2 .section-2-content-1 .work{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: default;
+}
+
+
+
+#section-2 .main-flex .box a{
+    text-decoration: none;
+    color: #1b1b1b;
+}
+
+#section-2 .main-flex .box .work-info .brand-name{
+    font-size: 2.4rem;
+    padding-top: 5rem;
+    font-weight: 700;
+}
+
+#section-2 .main-flex .box .work-info .service-type{
+    font-size: 2rem;
+    padding-top: 1.5rem;
+}
+
+
+#section-2 .main-flex .box{
+    width: 47%;
+    padding-bottom: 4rem;
+    padding-top: 7rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+#section-2 .main-flex .box img{
+    display: block;
+    width: 100%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+#section-2 .main-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+    padding-right: 4rem;
+    padding-left: 3rem;
+}
+
+#section-2 .main-flex-2{
+    display: flex;
+    flex-direction: row;
+}
+
+#section-2 .main-flex .box .work-info{
+    padding-left: 2rem;
+}
+
+#section-2 .main-flex .box-1{
+    background: #f9f3ec;
+}
+
+#section-2 .main-flex .box-2{
+    background: #b9d4ff;
+}
+
+#section-2 .main-flex-2 .box-3{
+    background: #c7ffe2;
+}
+
+#section-2 .main-flex-2 .box-4{
+    background: #ffcece;
+}
+
+
+#section-2 .explore-btn a{
+    text-decoration: none;
+    color: #121212;
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+#section-2 .explore-all-btn{
+    padding-left: 2rem;
+}
+
+/* #################   Section 3 Styling   ################ */
+
+#section-3{
+    position: relative;
+}
+
+#section-3 .bg-img{
+    background-image:url("../images/people.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40rem;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-3 .bg-img p{
+    font-size: 3.5rem;
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+    z-index: 200;
+    color: #fff;
+    cursor: default;
+}
+
+#section-3 .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #12af34cb;
+}
+
+/* #################   Section 4 Styling   ################ */
+
+#section-4 .section-4-content-1 .line{
+    width: 100vw;
+    height: 0.2rem;
+    margin-right: 5rem;
+    background: #4eff2f;
+    align-self: center;
+}
+
+#section-4 .section-4-content-1 .about h3{
+    display: inline-block;
+    font-size: 2.2rem;
+    padding-left: 0.9rem;
+    vertical-align: middle;
+    padding-right: 0.5rem;
+}
+
+#section-4 .section-4-content-1 .about img{
+    vertical-align: middle;
+}
+
+#section-4 .section-4-content-1 .about{
+    padding-left: 5rem;
+}
+
+#section-4 .section-4-content-1 .about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: default;
+    padding-top: 5rem;
+}
+
+#section-4 .what-we-offer h2{
+    padding-left: 5rem;
+    font-size: 5rem;
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+    cursor: default;
+}
+
+#section-4 .section-4-img{
+    background-image: url("../images/tools.png");
+    width: 100%;
+    height: 55rem;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+#section-4 .section-4-img .section-4-flex-2 .section-4-content-2 img{
+    width: 4rem;
+    height: 4rem;
+    vertical-align: middle;
+}
+
+#section-4 .section-4-img .section-4-flex-2 .section-4-content-2 h3{
+    display: inline-block;
+    font-size: 3rem;
+    vertical-align: middle;
+    cursor: default;
+    padding-left: 1rem;
+}
+
+#section-4 .section-4-img .section-4-flex-2 .section-4-content-2 p{
+    font-size: 2.5rem;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 2;
+    cursor: default;
+}
+
+#section-4 .section-4-img .section-4-flex-2{
+    padding-left: 9rem;
+}
+
+#section-4 .section-4-img .section-4-flex-2 .section-4-content-3 img{
+    width: 4rem;
+    height: 4rem;
+    vertical-align: middle;
+}
+
+#section-4 .section-4-img .section-4-flex-2 .section-4-content-3 h3{
+    display: inline-block;
+    font-size: 3rem;
+    vertical-align: middle;
+    cursor: default;
+    padding-left: 1rem;
+}
+
+#section-4 .section-4-img .section-4-flex-2 .section-4-content-3 p{
+    font-size: 2.5rem;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 2;
+    cursor: default;
+}
+
+
+#section-4 .section-4-img .section-4-flex-2 .section-4-content-4 img{
+    width: 4rem;
+    height: 4rem;
+    vertical-align: middle;
+}
+
+#section-4 .section-4-img .section-4-flex-2 .section-4-content-4 h3{
+    display: inline-block;
+    font-size: 3rem;
+    vertical-align: middle;
+    cursor: default;
+    padding-left: 1rem;
+}
+
+#section-4 .section-4-img .section-4-flex-2 .section-4-content-4 p{
+    font-size: 2.5rem;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 2;
+    cursor: default;
+}
+
+#section-4 .section-4-img .section-4-flex-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* #################   Section 5 Styling   ################ */
+
+#section-5{
+    background: #EFEFEF;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+}
+
+#section-5 p{
+    font-size: 3rem;
+    padding-top: 8rem;
+    margin-bottom: 10rem;
+    cursor: default;
+}
+
+#section-5 .section-5-flex img{
+    display: block;
+    width: 12%;
+    margin-bottom: 8rem;
+}
+
+#section-5 .section-5-flex {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 8rem;
+}
+
+
+#section-5 .btn a{
+    text-decoration: none;
+    display: flex;
+    font-size: 2.2rem;
+    color: #000;
+}
+
+#section-5 .btn a .btn-explore{
+    padding-left: 2rem;
+}
+
+/* #################   Section 6 Styling   ################ */
+
+#section-6{
+    padding-bottom: 5rem;
+}
+
+#section-6 .section-6-content-1 .line{
+    width: 100vw;
+    height: 0.2rem;
+    margin-right: 5rem;
+    background: #4eff2f;
+    align-self: center;
+}
+
+#section-6 .section-6-content-1 .testimonials h3{
+    display: inline-block;
+    font-size: 2.2rem;
+    padding-left: 0.9rem;
+    padding-right: 0.5rem;
+    vertical-align: middle;
+}
+
+#section-6 .section-6-content-1 .testimonials img{
+    vertical-align: middle;
+}
+
+#section-6 {
+    padding-left: 5rem;
+}
+
+
+#section-6 .section-6-content-1 .testimonials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: default;
+    padding-top: 2rem;
+}
+
+#section-6 .section-6-flex-1 h2{
+    font-size: 4rem;
+    cursor: default;
+}
+
+#section-6 .section-6-flex-1 p{
+    font-size: 2.2rem;
+    padding-top: 2rem;
+    cursor: default;
+}
+
+#section-6 .section-6-flex-1 h3{
+    font-size: 2rem;
+    padding-top: 1rem;
+    cursor: default;
+}
+
+#section-6 .section-6-flex-1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+}
+
+#section-6 .btn  a{
+    text-decoration: none;
+    color: #000;
+    font-size: 2.2rem;
+    display: flex;
+}
+
+#section-6 .btn  a .explore-btn{
+    padding-left: 2rem;
+}
+
+#section-6 .btn{
+    padding-left: 10rem;
+}
+
+#section-6 .flexing{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 5rem;
+
+}
+
+#section-6 .flexing .lefting{
+    padding-right: 5rem;
+}
+
+/* #################   Section 7 Styling   ################ */
+
+#section-7{
+    background: #EFEFEF;
+}
+
+#section-7 .bg-img{
+    background-image: url("../images/map.png");
+    width: 90%;
+    height: 75rem;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#section-7 .bg-img p{
+    font-size: 5rem;
+    font-weight: 700;
+    padding-top: 17rem;
+    margin-bottom: 4rem;
+    padding-left: 5rem;
+}
+
+#section-7 .section-7-content-1  h1{
+    font-size: 8rem;
+
+}
+
+#section-7 .section-7-content-1 h4{
+    font-size: 2.2rem;
+    padding-bottom: 2rem;
+}
+
+#section-7 .section-7-content-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+}
+
+/* ################   Footer Styling   ################ */
+
+
+#footer{
+    background: #000;
+}
+
+#footer .para p{
+    color: #fff;
+    font-size: 2.9rem;
+    padding-left: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    cursor: default;
+}
+
+#footer .para p u{
+    color: #4eff2f;
+    font-size: 3.5rem;
+}
+
+#footer .main-flex-6{
+    padding-left: 5rem;
+}
+
+
+#footer .main-flex-6  h3{
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+    color: #fff;
+    cursor: default;
+}
+
+#footer .main-flex-6  a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+#footer .main-flex-6 .input-fields input{
+    width: 50rem;
+    height: 5rem;
+    padding: 1rem;
+    font-size: 2rem;
+    outline: none;
+    margin-top: 2rem;
+    font-weight: 500;
+    background: transparent;
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+#footer .main-flex-6 textarea{
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 1rem;
+    width: 50rem;
+    height: 20rem;
+    outline: none;
+    margin-top: 2rem;
+    background: transparent;
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+#footer .main-flex-6 textarea:focus{
+    border-bottom: 0px;
+}
+
+#footer .main-flex-6 input:focus{
+    border-bottom: 0px;
+}
+
+#footer .main-flex-6 .footer-content-1 h3{
+    padding-bottom: 0;
+}
+
+
+#footer .main-flex-6 .submit-btn{
+    border: none;
+    background-color: transparent;
+    color: #4eff2f;
+    margin-top: 3rem;
+    padding-right: 4rem;
+    margin-bottom: 3rem;
+    font-size: 3.5rem;
+    background-image: url("../images/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 55%;
+}
+
+#footer .main-flex-6 .footer-content-2 h3{
+    padding-bottom: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: default;
+}
+
+#footer .main-flex-6 .footer-content-2 img{
+    width: 3rem;
+    height: 3rem;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+#footer .main-flex-6 .footer-content-2 .soc{
+    margin-left: 3rem;
+    padding-bottom: 2rem;
+}
+
+#footer .main-flex-6{
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer .design p{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: gray;
+    padding-left: 2rem;
+}
+
+#footer .design .terms-privacy a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: gray;
+    padding-left: 2rem;
+}
+
+#footer .design{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+}
+
+
+/* -------------------------   Work Page Styling   ------------------------- */
+
+/* ################   Section Work 1 Styling   ################ */
+
+#section-work-1{
+    padding-bottom: 8rem;
+}
+
+#section-work-1 .section-work-1-con-1 h1{
+    font-size: 7rem;
+    font-weight: 600;
+}
+
+#section-work-1 .section-work-1-con-1 p{
+    font-size: 2.7rem;
+    padding-top: 1rem;
+}
+
+#section-work-1 .section-work-1-con-1{
+   padding-top: 20rem;
+   padding-left: 5rem;
+   cursor: default;
+}
+
+
+#section-2 .main-flex-3{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5rem;
+}
+
+#section-2 .main-flex-3 .box-5{
+    background: rgba(255,190,0,.18);
+}
+
+#section-2 .main-flex-3 .box-6{
+    background: rgba(0,118,217,.09);
+}
+
+
+
+
+/* -----------------------   About page Styling   ---------------------------- */
+
+#section-about-1 .section-about-1-con-1 h1{
+    font-size: 7rem;
+    font-weight: 600;
+}
+
+#section-about-1 .section-about-1-con-1 p{
+    font-size: 2.7rem;
+    padding-top: 1rem;
+}
+
+#section-about-1 .section-about-1-con-1{
+    margin-top: 18rem;
+    margin-bottom: 10rem;
+    margin-left: 5rem;
+    cursor: default;
+ }
+
+ #section-about-2 .section-2-about-content-1 .line{
+    width: 100vw;
+    height: 0.2rem;
+    margin-right: 5rem;
+    background: #4eff2f;
+    align-self: center;
+}
+
+#section-about-2 .section-2-about-content-1 .our-company h3{
+    display: inline-block;
+    font-size: 2.2rem;
+    padding-right: 0.5rem;
+    padding-left: 0.9rem;
+    vertical-align: middle;
+}
+
+#section-about-2 .section-2-about-content-1 .our-company img{
+    vertical-align: middle;
+}
+
+#section-about-2 .section-2-about-content-1 .our-company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: default;
+    padding-top: 2rem;
+}
+
+#section-about-2{
+    padding-left: 5rem;
+}
+
+
+#section-about-2  .about-flex-1 .small-but-sharp h1{
+    font-size: 5rem;
+    cursor: default;
+}
+
+#section-about-2 .about-flex-1 .section-about-2-content-2 p{
+    font-size: 2.2rem;
+    cursor: default;
+}
+
+#section-about-2  .about-flex-1 .section-about-2-content-2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#section-about-2  .about-flex-1 .flexing-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#section-about-2  .about-flex-1 .flexing-2 .pad{
+    padding-right: 5rem;
+}
+
+#section-about-2 .about-flex-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-right: 5rem;
+}
+
+
+#section-about-3{
+    background: #000;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+#section-about-3 .how-we-do{
+    font-size: 2rem;
+    color: #fff;
+    padding-bottom: 4rem;
+    padding-top: 5rem;
+    cursor: default;
+}
+
+#section-about-3 .about-flex-2 .our-philo h1{
+    font-size: 5rem;
+    cursor: default;
+    color: #fff;
+}
+
+#section-about-3 .about-flex-2 .section-about-3-con-3 h3{
+    color: #fff;
+    font-size: 2.2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    cursor: default;
+}
+
+#section-about-3 .about-flex-2 .section-about-3-con-3 p{
+    color: #fff;
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
+    cursor: default;
+}
+
+#section-about-3 .about-flex-2 .flexing-3{
+    display: flex;
+    justify-content: space-around;
+}
+
+#section-about-3 .about-flex-2 .left{
+    padding-left: 25rem;
+}
+
+#section-about-3 .about-flex-2 .right{
+    padding-left: 3rem;
+}
+
+#section-about-3 .about-flex-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+#section-about-3 .about-flex-3 .section-about-3-con-3 h3{
+    color: #fff;
+    font-size: 2.2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    cursor: default;
+}
+
+#section-about-3 .about-flex-3 .section-about-3-con-3 p{
+    color: #fff;
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
+    cursor: default;
+}
+
+
+
+#section-about-3 .about-flex-3{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10rem;
+    width: 80%;
+    margin-left: 25rem;
+}
+
+
+
+
+#section-about-4{
+    background-color: #000;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+#section-about-4 .line{
+    width: 100%;
+    height: 0.1rem;
+    background: #4eff2f;
+} 
+
+
+#section-about-4 .years-of-experience{
+    font-size: 2rem;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    color: #fff;
+    cursor: default;
+}
+
+#section-about-4 .section-3-content p{
+    font-size: 3rem;
+    color: #fff;
+    cursor: default;
+}
+
+#section-about-4 .img-box .client-logo{
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+#section-about-4 .img-box-1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+#section-about-4 .img-box-2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+#section-about-4 .img-box-3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+#section-about-4 .img-box img{
+    display: block;
+    margin-right: 8rem;
+}
+
+#section-about-4 .img-box{
+    width: 90%;
+    margin: auto;
+}
+
+#section-about-4 .main-flex-3{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* -------------------------   Approach Page Styling   ----------------------- */
+
+#section-approach-1 .section-approach-1-con-1 h1{
+    font-size: 7rem;
+}
+
+#section-approach-1 .section-approach-1-con-1 p{
+    font-size: 2.7rem;
+    padding-top: 1rem;
+}
+
+#section-approach-1 .section-approach-1-con-1{
+   margin-top: 18rem;
+   margin-bottom: 10rem;
+   padding-left: 5rem;
+   cursor: default;
+}
+
+
+
+#section-approach-2{
+    padding-left: 5rem;
+}
+
+#section-approach-2 .section-2-approach-content-1 .line{
+    width: 100vw;
+    height: 0.2rem;
+    margin-right: 5rem;
+    background: #4eff2f;
+    align-self: center;
+}
+
+#section-approach-2 .section-2-approach-content-1 .how-its-work h3{
+    display: inline-block;
+    font-size: 2.2rem;
+    padding-left: 0.9rem;
+    padding-right: 0.5rem;
+    vertical-align: middle;
+}
+
+#section-approach-2 .section-2-approach-content-1 .how-its-work img{
+    vertical-align: middle;
+}
+
+
+#section-approach-2 .section-2-approach-content-1 .how-its-work{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: default;
+    padding-top: 2rem
+}
+
+
+#section-approach-2 .approach-flex-1 .our-pro h1{
+    font-size: 5rem;
+    cursor: default;
+}
+
+#section-approach-2 .approach-flex-1 .flexing-5{
+    display: flex;
+    justify-content: space-around;
+}
+
+#section-approach-2 .approach-flex-1 .section-approach-2-con-1 h2{
+    font-size: 3.2rem;
+    padding-top: 2rem;
+    padding-right: 4rem;
+}
+
+#section-approach-2 .approach-flex-1 .section-approach-2-con-1 p{
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 4rem;
+}
+
+#section-approach-2 .approach-flex-1 .left{
+    margin-left: 25rem;
+}
+
+#section-approach-2 .approach-flex-1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+#section-approach-2 .approach-flex-2 .section-approach-2-con-2 h2{
+    font-size: 3.2rem;
+    padding-top: 2rem;
+    padding-right: 4rem;
+}
+
+#section-approach-2 .approach-flex-2 .section-approach-2-con-2 p{
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 4rem;
+}
+
+#section-approach-2 .approach-flex-2{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 25rem;
+}
+
+#section-approach-2 .approach-flex-3 .section-approach-2-con-3 h2{
+    font-size: 3.2rem;
+    padding-top: 2rem;
+    padding-right: 4rem;
+}
+
+#section-approach-2 .approach-flex-3 .section-approach-2-con-3 p{
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 4rem;
+}
+
+#section-approach-2 .approach-flex-3{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5rem;
+    width: 80%;
+    margin-left: 25rem;
+}
+
+
+
+#section-approach-3{
+    background: #000;
+    padding-left: 5rem;
+    padding-right: 4rem;
+}
+
+#section-approach-3 .services{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    cursor: default;
+    color: #fff;
+}
+
+#section-approach-3 .approach-flex-4 h1{
+    font-size: 5rem;
+    cursor: default;
+    color: #fff;
+}
+
+#section-approach-3 .approach-flex-4 .flexing-6{
+    display: flex;
+    justify-content: space-around;
+}
+
+#section-approach-3 .approach-flex-4 .section-approach-3-con-1 h3{
+    font-size: 3.2rem;
+    padding-top: 2rem;
+    color: #fff;
+}
+
+#section-approach-3 .approach-flex-4 .section-approach-3-con-1 p{
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #fff;
+}
+
+#section-approach-3 .approach-flex-4{
+    display: flex;
+    justify-content: space-around;
+}
+
+#section-approach-3 .approach-flex-4 .left{
+    margin-left: 25rem;
+}
+
+#section-approach-3 .approach-flex-4 .right{
+    padding-left: 3rem;
+}
+
+#section-approach-3 .approach-flex-5 .section-approach-3-con-2 h3{
+    font-size: 3.2rem;
+    padding-top: 2rem;
+    color: #fff;
+}
+
+#section-approach-3 .approach-flex-5 .section-approach-3-con-2 p{
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #fff;
+}
+
+#section-approach-3 .approach-flex-5{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 25rem;
+    padding-bottom: 5rem;
+}
+
+
+#section-approach-4{
+    padding-left: 5rem;
+}
+
+#section-approach-4 .section-approach-4-content-1 .line{
+    width: 100vw;
+    height: 0.2rem;
+    margin-right: 5rem;
+    background: #4eff2f;
+    align-self: center;
+}
+
+#section-approach-4 .section-approach-4-content-1 .servicess h3{
+    display: inline-block;
+    font-size: 2.2rem;
+    padding-right: 0.5rem;
+    padding-left: 0.9rem;
+    vertical-align: middle;
+}
+
+#section-approach-4 .section-approach-4-content-1 .servicess img{
+    vertical-align: middle;
+}
+
+
+#section-approach-4 .section-approach-4-content-1 .servicess{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: default;
+    padding-top: 2rem
+}
+
+
+#section-approach-4 .approach-flex-6 h1{
+    font-size: 5rem
+}
+
+#section-approach-4 .approach-flex-6 .flexing-7{
+    display: flex;
+    justify-content: space-around;
+}
+
+#section-approach-4  .approach-flex-6 .section-approach-4-con-1 h2{
+    font-size: 3.2rem;
+    padding-top: 2rem;
+    padding-right: 4rem;
+}
+
+#section-approach-4 .approach-flex-6 .section-approach-4-con-1 p{
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 4rem;
+}
+
+#section-approach-4 .approach-flex-6{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+#section-approach-4 .approach-flex-6 .left{
+    margin-left: 25rem;
+}
+
+#section-approach-4 .approach-flex-7 .section-approach-4-con-2 h2{
+    font-size: 3.2rem;
+    padding-top: 2rem;
+    padding-right: 4rem;
+}
+
+#section-approach-4 .approach-flex-7 .section-approach-4-con-2 p{
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 4rem;
+}
+
+#section-approach-4 .approach-flex-7{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 25rem;
+    padding-bottom: 5rem;
+}
+
+
+
+/* --------------------------   Contact Page Styling   ------------------------- */
+
+
+#contact .section-contact-1-con-1 h1{
+    font-size: 7rem;
+    font-weight: 600;
+    color: #000;
+}
+
+#contact .section-contact-1-con-1 p{
+    font-size: 2.7rem;
+    color: #000;
+    padding-top: 1rem;
+}
+
+#contact .section-contact-1-con-1{
+   padding-top: 12rem;
+   padding-bottom: 10rem;
+   cursor: default;
+   padding-left: 5rem;
+}
+
+.line-contact{
+    width: 100%;
+    margin: 0 auto;
+    height: 2px;
+    background: #4eff2f;
+}
+
+
+/* --------------------------   Terms Page Styling   ------------------------- */
+#section-terms-1{
+    padding-bottom: 15rem;
+    margin-top: 6rem;
+    padding-left: 3rem;
+    line-height: 2;
+}
+
+#section-terms-1 h1{
+    font-size: 8rem;
+    cursor: default;
+    font-weight: 600;
+}
+
+#section-terms-1  h2{
+    font-size: 5rem;
+    margin-top: 4rem;
+    font-weight: 600;
+    cursor: default;
+}
+
+#section-terms-1  p{
+    font-size: 1.7rem;
+    font-weight: 600;
+    cursor: default;
+}
+
+#section-terms-1  ol li{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    list-style-position: inside;
+    cursor: default;
+}
+
+/* --------------------------   Privacy Policy Page Styling   ------------------------- */
+
+#section-privacy-policy{
+    padding-bottom: 10rem;
+    padding-left: 3rem;
+    margin-top: 7rem;
+}
+
+#section-privacy-policy h1{
+    font-size: 8rem;
+    font-weight: 600;
+    margin-bottom: 10rem;
+    cursor: default;
+}
+
+#section-privacy-policy  .border{
+    border-top: 2px solid #000;
+    display: inline-block;
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+    cursor: default;
+}
+
+#section-privacy-policy  p{
+    font-size: 1.9rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    cursor: default;
+}
+
+/* -------------------------   Media Query ------------------------- */
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    
+    #header{
+        width: 100%;
+    }
+
+
+    #header .navbar .humberger-lines .line{
+        width: 20px;
+        height: 2px;
+        background: #000;
+        margin: 5px;
+        margin-right: 1.5rem;
+        border-radius: 2rem;
+        cursor: pointer;
+    }
+
+    #header .navbar .humberger-lines.white .line{
+        width: 20px;
+        height: 2px;
+        background: #fff;
+        margin: 5px;
+        margin-right: 1.5rem;
+        border-radius: 2rem;
+        cursor: pointer;
+    }
+
+    #header .navbar{
+        width: 100%;
+    }
+    
+
+    #header .navbar .humberger-lines{
+        margin-top: 0.5rem;
+        z-index: 2;
+    }
+
+    
+
+    .nav-items{
+        position: fixed;
+        padding-top: 5rem;
+        padding-bottom: 15vh;
+        background: #000;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        clip-path: circle(100px at 90% -30%);
+        transition: all 1s ease-in-out;
+        -webkit-clip-path: circle(100px at 90% -30%)
+
+    }
+
+    .nav-items.open{
+        clip-path: circle(10000px at 90% -30%);
+        -webkit-clip-path: circle(10000px at 90% -30%)
+    }
+
+
+    #header .navbar .nav-items a{
+        font-size: 2rem;
+        color: #fff;
+        opacity: 0;
+    }
+
+    #header .navbar .nav-items a:nth-child(1){
+        transition: all 0.5s ease 0.1s;
+    }
+    #header .navbar .nav-items a:nth-child(3){
+        transition: all 0.5s ease 0.2s;
+    }
+    #header .navbar .nav-items a:nth-child(5){
+        transition: all 0.5s ease 0.3s;
+    }
+    #header .navbar .nav-items a:nth-child(7){
+        transition: all 0.5s ease 0.4s;
+    }
+
+    #header .navbar .nav-items a.fade{
+        opacity: 1;
+    }
+
+    #header .navbar .nav-items .line{
+        width: 0;
+        height: 0;
+        padding-bottom: 2rem;
+    }
+
+    
+
+
+
+
+/* ###############   Header Navbar Styling   ################ */
+
+    #header .navbar .logo img{
+        width: 8rem;
+        height: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+
+
+/* #################   Section 1 Styling   ################ */
+
+    .bg{
+        background: url("../images/res.png");
+        width: 100%;
+        height: 30rem;
+        background-repeat: no-repeat;
+        background-position: top center;
+        position: absolute;
+        z-index: 0;
+        top: 15%;
+        left: 0%;
+    }
+
+    #section-1{
+        position: relative;
+    }
+
+    #section-1 .section-1-content-1 h1{
+        font-size: 2.8rem;
+        cursor: default;
+        text-align: center;
+    }
+
+    #section-1 .section-1-content-1 p{
+        font-size: 1.3rem;
+        cursor: default;
+        line-height: 1.2;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+
+    #section-1 .section-1-content-1 {
+        padding-top: 12rem;
+        margin-left: 0rem;
+        z-index: 200;
+        padding-bottom: 10rem;
+    }
+
+
+
+
+    #section-1 .section-1-content-1 .ancher-tag{
+        text-align: center;
+    }
+
+    #section-1 .section-1-content-1 .ancher-tag img{
+        width: 10px;
+        height: 13px;
+    }
+
+
+    #section-1 .section-1-content-1 a{
+        text-decoration: none;
+        background: #000000;
+        display: inline-block;
+        margin-top: 1.5rem;
+        border-radius: 0.3rem;
+        padding-right: 2.5rem;
+        padding-left: 1.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    #section-1 .section-1-content-1 a img{
+        vertical-align: middle;
+    }
+
+    #section-1 .section-1-content-1 a h3{
+        display: inline-block;
+        color: #fff;
+        font-size: 1.6rem;
+        vertical-align: middle;
+        padding-left: 0.9rem;
+        line-height: 4.3rem;
+        letter-spacing: 0.2px
+    }
+
+    #section-1 .section-1-content-1 a:hover{
+        background: #333;
+    }
+
+/* #################   Section 2 Styling   ################ */
+
+    #section-2{
+        margin-top: 0rem;
+    }
+
+    #section-2 .section-2-content-1 .line{
+        width: 100vw;
+        height: 0.2rem;
+        margin-right: 1.5rem;
+        background: #4eff2f;
+        align-self: center;
+    }
+
+    #section-2 .section-2-content-1 .work h3{
+        display: inline-block;
+        font-size: 1.1rem;
+        padding-right: 0.5rem;
+        padding-left: 0.4rem;
+        vertical-align: middle;
+    }
+
+    #section-2 .section-2-content-1 .work img{
+        vertical-align: middle;
+        width: 7px;
+        height: 10px;
+    }
+
+    #section-2 .section-2-content-1 .work{
+        padding-left: 1.5rem;
+    }
+
+
+    #section-2 .section-2-content-1 .work{
+        display: flex;
+        justify-content: space-around;
+        cursor: default;
+    }
+
+
+
+    #section-2 .main-flex .box a{
+        text-decoration: none;
+        color: #1b1b1b;
+    }
+
+    #section-2 .main-flex .box .work-info .brand-name{
+        font-size: 1.6rem;
+        padding-top: 5rem;
+        font-weight: 700;
+    }
+
+    #section-2 .main-flex .box .work-info .service-type{
+        font-size: 1.3rem;
+        padding-top: 1.5rem;
+    }
+
+
+    #section-2 .main-flex .box{
+        width: 100%;
+        padding-bottom: 2rem;
+        padding-top: 5rem;
+        margin-left: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    #section-2 .main-flex .box img{
+        display: block;
+        width: 100%;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    #section-2 .main-flex{
+        display: block;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 1rem;
+        padding-right: 1.3rem;
+        padding-left: 1.5rem;
+    }
+
+    #section-2 .main-flex-2{
+        display: block;
+        flex-direction: row;
+    }
+
+    #section-2 .main-flex .box .work-info{
+        padding-left: 2rem;
+    }
+
+    #section-2 .main-flex .box-1{
+        background: #f9f3ec;
+    }
+
+    #section-2 .main-flex .box-2{
+        background: #b9d4ff;
+    }
+
+    #section-2 .main-flex-2 .box-3{
+        background: #c7ffe2;
+    }
+
+    #section-2 .main-flex-2 .box-4{
+        background: #ffcece;
+    }
+
+
+    #section-2 .explore-btn a{
+        text-decoration: none;
+        color: #121212;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    #section-2 .explore-btn img{
+        width: 7px;
+        height: 10px;
+        vertical-align: middle;
+        margin-top: 0.2rem;
+    }
+
+    #section-2 .explore-all-btn{
+        padding-left: 0.5rem;
+        vertical-align: middle;
+    }
+
+    /* #################   Section 3 Styling   ################ */
+
+    #section-3{
+        position: relative;
+    }
+
+    #section-3 .bg-img{
+        background-image:url("../images/people.png");
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 15rem;
+        background-size: cover;
+        background-position: 50% 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #section-3 .bg-img p{
+        font-size: 1.1rem;
+        text-align: center;
+        font-style: italic;
+        font-weight: 300;
+        z-index: 200;
+        color: #fff;
+        cursor: default;
+    }
+
+    #section-3 .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #12af34cb;
+    }
+
+/* #################   Section 4 Styling   ################ */
+
+    #section-4 .section-4-content-1 .line{
+        width: 100vw;
+        height: 0.2rem;
+        margin-right: 1.5rem;
+        background: #4eff2f;
+        align-self: center;
+    }
+
+    #section-4 .section-4-content-1 .about h3{
+        display: inline-block;
+        font-size: 1.1rem;
+        padding-right: 0.5rem;
+        padding-left: 0.4rem;
+        vertical-align: middle;
+    }
+
+    #section-4 .section-4-content-1 .about img{
+        vertical-align: middle;
+        width: 7px;
+        height: 10px;
+    }
+
+    #section-4 .section-4-content-1 .about{
+        padding-left: 1.5rem;
+    }
+
+    #section-4 .section-4-content-1 .about{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: default;
+        padding-top: 1rem;
+    }
+
+    #section-4 .what-we-offer h2{
+        padding-left: 1.5rem;
+        font-size: 2.5rem;
+        padding-top: 1rem;
+        margin-bottom: 1.5rem;
+        cursor: default;
+    }
+
+    #section-4 .section-4-img{
+        background-image: url("../images/tools.png");
+        width: 100vw;
+        height: 65rem;
+        background-repeat: no-repeat;
+        background-position: center right;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-2 img{
+        width: 1.6rem;
+        height: 1.6rem;
+        vertical-align: middle;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-2 h3{
+        display: inline-block;
+        font-size: 1.5rem;
+        vertical-align: middle;
+        cursor: default;
+        padding-left: 0.5rem;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-2 p{
+        font-size: 1.2rem;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+        line-height: 2;
+        cursor: default;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2{
+        padding-left: 1rem;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-3 img{
+        width: 1.6rem;
+        height: 1.6rem;
+        vertical-align: middle;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-3 h3{
+        display: inline-block;
+        font-size: 1.5rem;
+        vertical-align: middle;
+        cursor: default;
+        padding-left: 0.5rem;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-3 p{
+        font-size: 1.2rem;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+        line-height: 2;
+        cursor: default;
+    }
+
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-4 img{
+        width: 1.6rem;
+        height: 1.6rem;
+        vertical-align: middle;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-4 h3{
+        display: inline-block;
+        font-size: 1.5rem;
+        vertical-align: middle;
+        cursor: default;
+        padding-left: 0.5rem;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-4 p{
+        font-size: 1.5rem;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+        line-height: 2;
+        cursor: default;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2{
+        display: block;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+/* #################   Section 5 Styling   ################ */
+
+    #section-5{
+        background: #EFEFEF;
+        padding-left: 1.5rem;
+        padding-bottom: 5rem;
+    }
+
+    #section-5 p{
+        font-size: 1.5rem;
+        padding-top: 2rem;
+        margin-bottom: 4rem;
+        cursor: default;
+    }
+
+    #section-5 p br{
+        display: none;
+    }
+
+    #section-5 .section-5-flex img{
+        display: block;
+        width: 12%;
+        margin-bottom: 4rem;
+    }
+
+    #section-5 .section-5-flex {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 0rem;
+    }
+
+
+    #section-5 .btn a{
+        text-decoration: none;
+        display: flex;
+        font-size: 1.1rem;
+        color: #000;
+    }
+
+    #section-5 .btn img{
+        width: 7px;
+        height: 10px;
+        margin-top: 0.1rem;
+    }
+
+    #section-5 .btn a .btn-explore{
+        padding-left: 0.5rem;
+    }
+
+/* #################   Section 6 Styling   ################ */
+
+    #section-6{
+        padding-bottom: 0rem;
+    }
+
+    #section-6 .section-6-content-1 .line{
+        width: 100vw;
+        height: 0.2rem;
+        margin-right: 1.5rem;
+        background: #4eff2f;
+        align-self: center;
+    }
+
+    #section-6 .section-6-content-1 .testimonials h3{
+        display: inline-block;
+        font-size: 1.1rem;
+        padding-right: 0.5rem;
+        padding-left: 0.4rem;
+        vertical-align: middle;
+    }
+
+    #section-6 .section-6-content-1 .testimonials img{
+        vertical-align: middle;
+        width: 7px;
+        height: 10px;
+    }
+
+    #section-6 {
+        padding-left: 1.5rem;
+    }
+
+
+    #section-6 .section-6-content-1 .testimonials{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: default;
+        padding-top: 2rem;
+    }
+
+    #section-6 .section-6-flex-1 h2{
+        font-size: 2rem;
+        cursor: default;
+    }
+
+    #section-6 .section-6-flex-1 p{
+        font-size: 1.3rem;
+        padding-top: 1rem;
+        cursor: default;
+        text-align: justify;
+    }
+
+    #section-6 .section-6-flex-1 p br{
+        display: none;
+    }
+
+    #section-6 .section-6-flex-1 h3{
+        font-size: 1.2rem;
+        padding-top: 1rem;
+        cursor: default;
+    }
+
+    #section-6 .section-6-flex-1{
+        display: block;
+        justify-content: space-between;
+        padding-top: 1rem;
+    }
+
+    #section-6 .btn  a{
+        text-decoration: none;
+        color: #000;
+        font-size: 1.2rem;
+        display: flex;
+    }
+
+    #section-6 .btn  a .explore-btn{
+        padding-left: 0.5rem;
+        padding-bottom: 2rem;
+    }
+
+    #section-6 .btn img{
+        width: 7px;
+        height: 10px;
+        margin-top: 0.3rem;
+    }
+
+    #section-6 .btn{
+        padding-left: 9rem;
+        margin-top: 1rem;
+
+    }
+
+    #section-6 .flexing{
+        display: block;
+        justify-content: space-around;
+        padding-right: 1.5rem;
+
+    }
+
+    #section-6 .flexing .lefting{
+        padding-right: 1.5rem;
+    }
+
+/* #################   Section 7 Styling   ################ */
+
+    #section-7{
+        background: #EFEFEF;
+    }
+
+    #section-7 .bg-img{
+        background-image: url("../images/map.png");
+        width: 90vw;
+        height: 35rem;
+        background-size: cover;
+        margin: 0 auto;
+    }
+
+    #section-7 .bg-img p{
+        font-size: 1.8rem;
+        font-weight: 700;
+        padding-top: 10rem;
+        margin-bottom: 4rem;
+        padding-left: 1.5rem;
+    }
+
+    #section-7 .bg-img p br{
+        display: none;
+    }
+
+    #section-7 .section-7-content-1  h1{
+        font-size: 3rem;
+
+    }
+
+    #section-7 .section-7-content-1 h4{
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #section-7 .section-7-content-1{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 1rem;
+    }
+
+/* ################   Footer Styling   ################ */
+
+
+    #footer{
+        background: #000;
+    }
+
+    #footer .para p{
+        color: #fff;
+        font-size: 1.5rem;
+        padding-left: 1.5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 5rem;
+        cursor: default;
+    }
+
+    #footer .para p u{
+        color: #4eff2f;
+        font-size: 1.8rem;
+    }
+
+    #footer .main-flex-6{
+        padding-left: 1.5rem;
+    }
+
+
+    #footer .main-flex-6  h3{
+        font-size: 1.4rem;
+        font-weight: 500;
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+        color: #fff;
+        cursor: default;
+    }
+
+    #footer .main-flex-6  a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.1rem;
+    }
+
+    #footer .main-flex-6 .input-fields input{
+        width: 27rem;
+        height: 2.5rem;
+        padding: 1rem;
+        font-size: 1.2rem;
+        outline: none;
+        margin-top: 1rem;
+        font-weight: 500;
+        background: transparent;
+        color: #fff;
+        border: none;
+        border-bottom: 2px solid gray;
+    }
+
+    #footer .main-flex-6 textarea{
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 1rem;
+        width: 27rem;
+        height: 10rem;
+        outline: none;
+        margin-top: 2rem;
+        background: transparent;
+        color: #fff;
+        border: none;
+        border-bottom: 2px solid gray;
+    }
+
+    #footer .main-flex-6 textarea:focus{
+        border-bottom: 0px;
+    }
+
+    #footer .main-flex-6 input:focus{
+        border-bottom: 0px;
+    }
+
+    #footer .main-flex-6 .footer-content-1 h3{
+        padding-bottom: 0;
+    }
+
+
+    #footer .main-flex-6 .submit-btn{
+        border: none;
+        background-color: transparent;
+        color: #4eff2f;
+        margin-top: 3rem;
+        padding-right: 4rem;
+        margin-bottom: 3rem;
+        font-size: 2.1rem;
+        background-image: url("../images/res_arrow.svg");
+        background-repeat: no-repeat;
+        background-position: 95% 55%;
+    }
+
+    #footer .main-flex-6 .footer-content-2 h3{
+        padding-bottom: 1rem;
+        display: inline-block;
+        vertical-align: middle;
+        cursor: default;
+    }
+
+    #footer .main-flex-6 .footer-content-2 img{
+        width: 2rem;
+        height: 2rem;
+        vertical-align: middle;
+        margin-right: 0.5rem;
+    }
+
+    #footer .main-flex-6 .footer-content-2 .soc{
+        margin-left: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    #footer .main-flex-6{
+        display: block;
+        justify-content: space-around;
+    }
+
+    #footer .design p{
+        font-size: 0.5rem;
+        font-weight: 700;
+        color: gray;
+        padding-left: 2rem;
+    }
+
+    #footer .design .terms-privacy a{
+        text-decoration: none;
+        font-size: 0.7rem;
+        font-weight: 700;
+        color: gray;
+        padding-left: 1rem;
+    }
+
+    #footer .design{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+        padding-top: 4rem;
+    }
+
+
+/* -------------------------   Work Page Styling   ------------------------- */
+
+/* ################   Section Work 1 Styling   ################ */
+
+    #section-work-1{
+        padding-bottom: 5rem;
+    }
+
+    #section-work-1 .section-work-1-con-1 h1{
+        font-size: 2.8rem;
+        font-weight: 600;
+    }
+
+    #section-work-1 .section-work-1-con-1 p{
+        font-size: 1.3rem;
+        padding-top: 1rem;
+    }
+
+    #section-work-1 .section-work-1-con-1{
+    padding-top: 10rem;
+    padding-left: 1.5rem;
+    cursor: default;
+    }
+
+
+    #section-2 .main-flex-3{
+        display: block;
+        flex-direction: row;
+        padding-bottom: 5rem;
+    }
+
+    #section-2 .main-flex-3 .box-5{
+        background: rgba(255,190,0,.18);
+    }
+
+    #section-2 .main-flex-3 .box-6{
+        background: rgba(0,118,217,.09);
+    }
+
+
+
+/* -----------------------   About page Styling   ---------------------------- */
+
+    #section-about-1 .section-about-1-con-1 h1{
+        font-size: 2.8rem;
+        font-weight: 600;
+    }
+
+    #section-about-1 .section-about-1-con-1 p{
+        font-size: 1.3rem;
+        padding-top: 1rem;
+    }
+
+    #section-about-1 .section-about-1-con-1 p br{
+        display: none;
+    }
+
+    #section-about-1 .section-about-1-con-1{
+        margin-top: 9rem;
+        margin-bottom: 4rem;
+        margin-left: 1.5rem;
+        cursor: default;
+    }
+
+    #section-about-2 .section-2-about-content-1 .line{
+        width: 100vw;
+        height: 0.2rem;
+        margin-right: 1.5rem;
+        background: #4eff2f;
+        align-self: center;
+    }
+
+    #section-about-2 .section-2-about-content-1 .our-company h3{
+        display: inline-block;
+        font-size: 1.1rem;
+        padding-right: 0.5rem;
+        padding-left: 0.4rem;
+        vertical-align: middle;
+    }
+
+    #section-about-2 .section-2-about-content-1 .our-company img{
+        vertical-align: middle;
+        width: 7px;
+        height: 10px;
+
+    }
+
+    #section-about-2 .section-2-about-content-1 .our-company{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: default;
+        padding-top: 1rem;
+    }
+
+    #section-about-2{
+        padding-left: 1.5rem;
+    }
+
+
+    #section-about-2  .about-flex-1 .small-but-sharp h1{
+        font-size: 2rem;
+        cursor: default;
+    }
+
+    #section-about-2 .about-flex-1 .section-about-2-content-2 p{
+        font-size: 1.3rem;
+        cursor: default;
+        text-align: justify;
+    }
+
+    #section-about-2 .about-flex-1 .section-about-2-content-2 p br{
+        display: none;
+    }
+
+    #section-about-2  .about-flex-1 .section-about-2-content-2{
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+    }
+
+    #section-about-2  .about-flex-1 .flexing-2{
+        display: block;
+        justify-content: space-evenly;
+    }
+
+
+    #section-about-2  .about-flex-1 .flexing-2 .pad{
+        padding-right: 1.5rem;
+    }
+
+    #section-about-2 .about-flex-1{
+        display: block;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+
+    #section-about-3{
+        background: #000;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-about-3 .how-we-do{
+        font-size: 1.1rem;
+        color: #fff;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        cursor: default;
+    }
+
+    #section-about-3 .about-flex-2 .our-philo h1{
+        font-size: 2rem;
+        cursor: default;
+        color: #fff;
+        padding-bottom: 2rem;
+    }
+
+    #section-about-3 .about-flex-2 .flexing-3{
+        display: block;
+    }
+
+    #section-about-3 .about-flex-2 .section-about-3-con-3 h3{
+        color: #fff;
+        font-size: 1.1rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        cursor: default;
+    }
+
+    #section-about-3 .about-flex-2 .section-about-3-con-3 p{
+        color: #fff;
+        font-size: 0.9rem;
+        padding-bottom: 1rem;
+        cursor: default;
+    }
+
+    #section-about-3 .about-flex-2 .section-about-3-con-3 p br{
+        display: none;
+    }
+
+    #section-about-3 .about-flex-2 .left{
+        padding-left: 0rem;
+    }
+
+    #section-about-3 .about-flex-2 .right{
+        padding-left: 0rem;
+    }
+
+    #section-about-3 .about-flex-2 {
+        display: block;
+        justify-content: space-between;
+        margin-bottom: 0rem;
+    }
+
+    #section-about-3 .about-flex-3 .section-about-3-con-3 h3{
+        color: #fff;
+        font-size: 1.1rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        cursor: default;
+    }
+
+    #section-about-3 .about-flex-3 .section-about-3-con-3 p{
+        color: #fff;
+        font-size: 0.9rem;
+        padding-bottom: 1rem;
+        cursor: default;
+    }
+
+    #section-about-3 .about-flex-3 .section-about-3-con-3 p br{
+        display: none;
+    }
+
+
+
+    #section-about-3 .about-flex-3{
+        display: block;
+        justify-content: space-around;
+        padding-bottom: 10rem;
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+
+
+
+    #section-about-4{
+        background-color: #000;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+
+    #section-about-4 .line{
+        width: 100%;
+        height: 0.1rem;
+        background: #4eff2f;
+    } 
+
+
+    #section-about-4 .years-of-experience{
+        font-size: 1.1rem;
+        padding-bottom: 5rem;
+        padding-top: 2rem;
+        color: #fff;
+        cursor: default;
+    }
+
+    #section-about-4 .section-3-content p{
+        font-size: 1.8rem;
+        color: #fff;
+        cursor: default;
+    }
+
+    #section-about-4 .section-3-content p br{
+        display: none;
+    }
+
+    #section-about-4 .img-box .client-logo{
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+
+    #section-about-4 .img-box-1{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    }
+
+    #section-about-4 .img-box-1 .client-logo-2{
+        width: 25%;
+    }
+
+    #section-about-4 .img-box-3 .client-logo-3{
+        width: 40%;
+    }
+
+    #section-about-4 .img-box-2 .client-logo-4{
+        width: 40%;
+    }
+
+    #section-about-4 .img-box-2 .client-logo-5{
+        width: 40%;
+    }
+
+    #section-about-4 .img-box-2{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    }
+
+
+
+    #section-about-4 .img-box-3{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    }
+
+
+    #section-about-4 .img-box img{
+        display: block;
+        margin-right: 2rem;
+    }
+
+    #section-about-4 .img-box{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #section-about-4 .main-flex-3{
+        display: block;
+        justify-content: space-between;
+    }
+
+
+
+/* -------------------------   Approach Page Styling   ----------------------- */
+
+    #section-approach-1 .section-approach-1-con-1 h1{
+        font-size: 2.8rem;
+    }
+
+    #section-approach-1 .section-approach-1-con-1 p{
+        font-size: 1.3rem;
+        padding-top: 1rem;
+    }
+
+    #section-approach-1 .section-approach-1-con-1 p br{
+        display: none;
+    }
+
+    #section-approach-1 .section-approach-1-con-1{
+    margin-top: 9rem;
+    margin-bottom: 5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    cursor: default;
+    }
+
+
+
+    #section-approach-2{
+        padding-left: 1.5rem;
+    }
+
+    #section-approach-2 .section-2-approach-content-1 .line{
+        width: 100vw;
+        height: 0.2rem;
+        margin-right: 1.5rem;
+        background: #4eff2f;
+    }
+
+    #section-approach-2 .section-2-approach-content-1 .how-its-work h3{
+        display: inline-block;
+        font-size: 1.1rem;
+        padding-left: 0.4rem;
+        padding-right: 0.5rem;
+        vertical-align: middle;
+    }
+
+    #section-approach-2 .section-2-approach-content-1 .how-its-work img{
+        vertical-align: middle;
+        width: 7px;
+        height: 10px;
+    }
+
+
+    #section-approach-2 .section-2-approach-content-1 .how-its-work{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        cursor: default;
+        padding-top: 1rem
+    }
+
+
+    #section-approach-2 .approach-flex-1 .our-pro h1{
+        font-size: 2.5rem;
+        cursor: default;
+    }
+
+    #section-approach-2 .approach-flex-1 .flexing-5{
+        display: block;
+    }
+
+    #section-approach-2 .approach-flex-1 .section-approach-2-con-1 h2{
+        font-size: 2rem;
+        padding-top: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-approach-2 .approach-flex-1 .section-approach-2-con-1 p{
+        font-size: 1.2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: justify;
+    }
+
+    #section-approach-2 .approach-flex-1 .section-approach-2-con-1 p br{
+        display: none;
+    }
+
+    #section-approach-2 .approach-flex-1 .left{
+        margin-left: 0rem;
+    }
+
+    #section-approach-2 .approach-flex-1{
+        display: block;
+        justify-content: space-around;
+        padding-top: 3rem;
+    }
+
+    #section-approach-2 .approach-flex-2 .section-approach-2-con-2 h2{
+        font-size: 2rem;
+        padding-top: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-approach-2 .approach-flex-2 .section-approach-2-con-2 p{
+        font-size: 1.2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: justify;
+    }
+
+    #section-approach-2 .approach-flex-2 .section-approach-2-con-2 p br{
+        display: none;
+    }
+
+    #section-approach-2 .approach-flex-2{
+        display: block;
+        justify-content: space-around;
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    #section-approach-2 .approach-flex-3 .section-approach-2-con-3 h2{
+        font-size: 2rem;
+        padding-top: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-approach-2 .approach-flex-3 .section-approach-2-con-3 p{
+        font-size: 1.2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: justify;
+    }
+
+    #section-approach-2 .approach-flex-3 .section-approach-2-con-3 p br{
+        display: none;
+    }
+
+    #section-approach-2 .approach-flex-3{
+        display: block;
+        justify-content: space-around;
+        padding-bottom: 2rem;
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+
+
+    #section-approach-3{
+        background: #000;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-approach-3 .services{
+        font-size: 1.1rem;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+        cursor: default;
+        color: #fff;
+    }
+
+    #section-approach-3 .approach-flex-4 h1{
+        font-size: 2.5rem;
+        cursor: default;
+        color: #fff;
+    }
+
+    #section-approach-3 .approach-flex-4 .flexing-6{
+        display: block;
+    }
+
+    #section-approach-3 .approach-flex-4 .section-approach-3-con-1 h3{
+        font-size: 1.8rem;
+        padding-top: 1.5rem;
+        color: #fff;
+    }
+
+    #section-approach-3 .approach-flex-4 .section-approach-3-con-1 p{
+        font-size: 1.2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        color: #fff;
+        text-align: justify;
+    }
+
+    #section-approach-3 .approach-flex-4 .section-approach-3-con-1 p br{
+        display: none;
+    }
+
+    #section-approach-3 .approach-flex-4{
+        display: block;
+        justify-content: space-around;
+    }
+
+    #section-approach-3 .approach-flex-4 .left{
+        margin-left: 0rem;
+    }
+
+    #section-approach-3 .approach-flex-4 .right{
+        padding-left: 0rem;
+    }
+
+    #section-approach-3 .approach-flex-5 .section-approach-3-con-2 h3{
+        font-size: 1.8rem;
+        padding-top: 1.5rem;
+        color: #fff;
+    }
+
+    #section-approach-3 .approach-flex-5 .section-approach-3-con-2 p{
+        font-size: 1.2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        color: #fff;
+        text-align: justify;
+    }
+
+    #section-approach-3 .approach-flex-5 .section-approach-3-con-2 p br{
+        display: none;
+    }
+
+    #section-approach-3 .approach-flex-5{
+        display: block;
+        width: 100%;
+        margin-left: 0rem;
+        padding-bottom: 2rem;
+    }
+
+
+    #section-approach-4{
+        padding-left: 1.5rem;
+    }
+
+    #section-approach-4 .section-approach-4-content-1 .line{
+        width: 100vw;
+        height: 0.2rem;
+        margin-right: 1.5rem;
+        background: #4eff2f;
+        align-self: center;
+    }
+
+    #section-approach-4 .section-approach-4-content-1 .servicess h3{
+        display: inline-block;
+        font-size: 1.1rem;
+        padding-right: 0.5rem;
+        padding-left: 0.4rem;
+        vertical-align: middle;
+    }
+
+    #section-approach-4 .section-approach-4-content-1 .servicess img{
+        vertical-align: middle;
+        width: 7px;
+        height: 10px;
+    }
+
+
+    #section-approach-4 .section-approach-4-content-1 .servicess{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        cursor: default;
+        padding-top: 1.5rem
+    }
+
+
+    #section-approach-4 .approach-flex-6 h1{
+        font-size: 2.5rem
+    }
+
+    #section-approach-4  .approach-flex-6 .section-approach-4-con-1 h2{
+        font-size: 2rem;
+        padding-top: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-approach-4  .approach-flex-6 .flexing-7{
+        display: block;
+    }
+
+    #section-approach-4 .approach-flex-6 .section-approach-4-con-1 p{
+        font-size: 1.2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: justify;
+    }
+
+    #section-approach-4 .approach-flex-6 .section-approach-4-con-1 p br{
+        display: none;
+    }
+
+    #section-approach-4 .approach-flex-6{
+        display: block;
+        justify-content: space-around;
+        padding-top: 1.5rem;
+    }
+
+    #section-approach-4 .approach-flex-6 .left{
+        margin-left: 0rem;
+    }
+
+    #section-approach-4 .approach-flex-7 .section-approach-4-con-2 h2{
+        font-size: 2rem;
+        padding-top: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-approach-4 .approach-flex-7 .section-approach-4-con-2 p{
+        font-size: 1.2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: justify;
+    }
+
+    #section-approach-4 .approach-flex-7 .section-approach-4-con-2 p br{
+        display: none;
+    }
+
+    #section-approach-4 .approach-flex-7{
+        display: block;
+        justify-content: space-around;
+        width: 100%;
+        margin-left: 0rem;
+        padding-bottom: 2rem;
+    }
+
+
+
+/* --------------------------   Contact Page Styling   ------------------------- */
+
+
+    #contact .section-contact-1-con-1 h1{
+        font-size: 2.8rem;
+        font-weight: 600;
+        color: #000;
+    }
+
+    #contact .section-contact-1-con-1 p{
+        font-size: 1.3rem;
+        color: #000;
+        padding-top: 1rem;
+    }
+
+    #contact .section-contact-1-con-1 p br{
+        display: none;
+    }
+
+    #contact .section-contact-1-con-1{
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    cursor: default;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    }
+
+    .line-contact{
+        width: 100%;
+        margin: 0 auto;
+        height: 2px;
+        background: #4eff2f;
+    }
+
+
+/* --------------------------   Terms Page Styling   ------------------------- */
+    #section-terms-1{
+        padding-bottom: 5rem;
+        margin-top: 6rem;
+        padding-left: 1.5rem;
+        line-height: 2;
+        padding-right: 1.5rem;
+    }
+
+    #section-terms-1 h1{
+        font-size: 3rem;
+        cursor: default;
+        font-weight: 600;
+    }
+
+    #section-terms-1  h2{
+        font-size: 2.5rem;
+        margin-top: 2rem;
+        font-weight: 600;
+        cursor: default;
+    }
+
+    #section-terms-1  p{
+        font-size: 1.1rem;
+        font-weight: 600;
+        cursor: default;
+        text-align: justify;
+    }
+
+    #section-terms-1  p br{
+        display: none;
+    }
+
+    #section-terms-1  ol li{
+        font-size: 1rem;
+        font-weight: 600;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        list-style-position: inside;
+        cursor: default;
+        text-align: justify;
+    }
+
+    #section-terms-1  ol li br{
+        display: none;
+    }
+
+/* --------------------------   Privacy Policy Page Styling   ------------------------- */
+
+    #section-privacy-policy{
+        padding-bottom: 5rem;
+        padding-left: 1.5rem;
+        margin-top: 7rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-privacy-policy h1{
+        font-size: 3rem;
+        font-weight: 600;
+        margin-bottom: 5rem;
+        cursor: default;
+    }
+
+    #section-privacy-policy  .border{
+        border-top: 2px solid #000;
+        display: inline-block;
+        font-size: 1.1rem;
+        font-weight: 600;
+        padding-bottom: 1.5rem;
+        cursor: default;
+    }
+
+    #section-privacy-policy  p{
+        font-size: 1.1rem;
+        font-weight: 600;
+        padding-top: 1.5rem;
+        cursor: default;
+        text-align: justify;
+    }
+
+    #section-privacy-policy  p br{
+        display: none;
+    }
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:481px) and (max-width:768px){
+
+
+
+    #header{
+        width: 100%;
+    }
+
+
+    #header .navbar .humberger-lines .line{
+        width: 40px;
+        height: 3px;
+        background: #000;
+        margin: 5px;
+        margin-right: 1.5rem;
+        border-radius: 2rem;
+        cursor: pointer;
+        margin-top: 0.7rem;
+    }
+
+    #header .navbar .humberger-lines.white .line{
+        width: 40px;
+        height: 3px;
+        background: #fff;
+        margin: 5px;
+        margin-right: 1.5rem;
+        border-radius: 2rem;
+        cursor: pointer;
+    }
+
+    #header .navbar{
+        width: 100%;
+    }
+    
+
+    #header .navbar .humberger-lines{
+        margin-top: 0.5rem;
+        z-index: 2;
+    }
+
+    
+
+    .nav-items{
+        position: fixed;
+        padding-top: 10rem;
+        padding-bottom: 15vh;
+        background: #000;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        clip-path: circle(100px at 90% -30%);
+        transition: all 1s ease-in-out;
+        -webkit-clip-path: circle(100px at 90% -30%)
+
+    }
+
+    .nav-items.open{
+        clip-path: circle(10000px at 90% -30%);
+        -webkit-clip-path: circle(10000px at 90% -30%)
+    }
+
+
+    #header .navbar .nav-items a{
+        font-size: 2.5rem;
+        color: #fff;
+        opacity: 0;
+    }
+
+    #header .navbar .nav-items a:nth-child(1){
+        transition: all 0.5s ease 0.1s;
+    }
+    #header .navbar .nav-items a:nth-child(3){
+        transition: all 0.5s ease 0.2s;
+    }
+    #header .navbar .nav-items a:nth-child(5){
+        transition: all 0.5s ease 0.3s;
+    }
+    #header .navbar .nav-items a:nth-child(7){
+        transition: all 0.5s ease 0.4s;
+    }
+
+    #header .navbar .nav-items a.fade{
+        opacity: 1;
+    }
+
+    #header .navbar .nav-items .line{
+        width: 0;
+        height: 0;
+        padding-bottom: 2rem;
+    }
+
+    
+
+
+
+    /* ###############   Header Navbar Styling   ################ */
+
+    #header .navbar .logo img{
+        width: 12rem;
+        height: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+
+
+/* #################   Section 1 Styling   ################ */
+
+    .bg{
+        background: url("../images/bg-2.png");
+        width: 100%;
+        height: 43rem;
+        background-repeat: no-repeat;
+        background-position: top center;
+        position: absolute;
+        z-index: 0;
+        top: 10%;
+        left: 0%;
+    }
+
+    #section-1{
+        position: relative;
+    }
+
+    #section-1 .section-1-content-1 h1{
+        font-size: 2.8rem;
+        cursor: default;
+        text-align: center;
+    }
+
+    #section-1 .section-1-content-1 p{
+        font-size: 1.3rem;
+        cursor: default;
+        line-height: 1.2;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+
+    #section-1 .section-1-content-1 {
+        padding-top: 17rem;
+        margin-left: 0rem;
+        z-index: 200;
+        padding-bottom: 15rem;
+    }
+
+
+
+
+    #section-1 .section-1-content-1 .ancher-tag{
+        text-align: center;
+    }
+
+    #section-1 .section-1-content-1 .ancher-tag img{
+        width: 10px;
+        height: 13px;
+    }
+
+
+    #section-1 .section-1-content-1 a{
+        text-decoration: none;
+        background: #000000;
+        display: inline-block;
+        margin-top: 1.5rem;
+        border-radius: 0.3rem;
+        padding-right: 2.5rem;
+        padding-left: 1.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    #section-1 .section-1-content-1 a img{
+        vertical-align: middle;
+    }
+
+    #section-1 .section-1-content-1 a h3{
+        display: inline-block;
+        color: #fff;
+        font-size: 1.6rem;
+        vertical-align: middle;
+        padding-left: 0.9rem;
+        line-height: 4.3rem;
+        letter-spacing: 0.2px
+    }
+
+    #section-1 .section-1-content-1 a:hover{
+        background: #333;
+    }
+
+/* #################   Section 2 Styling   ################ */
+
+    #section-2{
+        margin-top: 0rem;
+    }
+
+    #section-2 .section-2-content-1 .line{
+        width: 100vw;
+        height: 0.2rem;
+        margin-right: 1.5rem;
+        background: #4eff2f;
+        align-self: center;
+    }
+
+    #section-2 .section-2-content-1 .work h3{
+        display: inline-block;
+        font-size: 1.1rem;
+        padding-right: 0.5rem;
+        padding-left: 0.4rem;
+        vertical-align: middle;
+    }
+
+    #section-2 .section-2-content-1 .work img{
+        vertical-align: middle;
+        width: 7px;
+        height: 10px;
+    }
+
+    #section-2 .section-2-content-1 .work{
+        padding-left: 1.5rem;
+    }
+
+
+    #section-2 .section-2-content-1 .work{
+        display: flex;
+        justify-content: space-around;
+        cursor: default;
+    }
+
+
+
+    #section-2 .main-flex .box a{
+        text-decoration: none;
+        color: #1b1b1b;
+    }
+
+    #section-2 .main-flex .box .work-info .brand-name{
+        font-size: 1.6rem;
+        padding-top: 5rem;
+        font-weight: 700;
+    }
+
+    #section-2 .main-flex .box .work-info .service-type{
+        font-size: 1.3rem;
+        padding-top: 1.5rem;
+    }
+
+
+    #section-2 .main-flex .box{
+        width: 100%;
+        padding-bottom: 2rem;
+        padding-top: 5rem;
+        margin-left: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    #section-2 .main-flex .box img{
+        display: block;
+        width: 100%;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    #section-2 .main-flex{
+        display: block;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 1rem;
+        padding-right: 1.3rem;
+        padding-left: 1.5rem;
+    }
+
+    #section-2 .main-flex-2{
+        display: block;
+        flex-direction: row;
+    }
+
+    #section-2 .main-flex .box .work-info{
+        padding-left: 2rem;
+    }
+
+    #section-2 .main-flex .box-1{
+        background: #f9f3ec;
+    }
+
+    #section-2 .main-flex .box-2{
+        background: #b9d4ff;
+    }
+
+    #section-2 .main-flex-2 .box-3{
+        background: #c7ffe2;
+    }
+
+    #section-2 .main-flex-2 .box-4{
+        background: #ffcece;
+    }
+
+
+    #section-2 .explore-btn a{
+        text-decoration: none;
+        color: #121212;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    #section-2 .explore-btn img{
+        width: 7px;
+        height: 10px;
+        vertical-align: middle;
+        margin-top: 0.2rem;
+    }
+
+    #section-2 .explore-all-btn{
+        padding-left: 0.5rem;
+        vertical-align: middle;
+    }
+
+    /* #################   Section 3 Styling   ################ */
+
+    #section-3{
+        position: relative;
+    }
+
+    #section-3 .bg-img{
+        background-image:url("../images/people.png");
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 15rem;
+        background-size: cover;
+        background-position: 50% 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #section-3 .bg-img p{
+        font-size: 1.1rem;
+        text-align: center;
+        font-style: italic;
+        font-weight: 300;
+        z-index: 200;
+        color: #fff;
+        cursor: default;
+    }
+
+    #section-3 .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #12af34cb;
+    }
+
+/* #################   Section 4 Styling   ################ */
+
+    #section-4 .section-4-content-1 .line{
+        width: 100vw;
+        height: 0.2rem;
+        margin-right: 1.5rem;
+        background: #4eff2f;
+        align-self: center;
+    }
+
+    #section-4 .section-4-content-1 .about h3{
+        display: inline-block;
+        font-size: 1.1rem;
+        padding-right: 0.5rem;
+        padding-left: 0.4rem;
+        vertical-align: middle;
+    }
+
+    #section-4 .section-4-content-1 .about img{
+        vertical-align: middle;
+        width: 7px;
+        height: 10px;
+    }
+
+    #section-4 .section-4-content-1 .about{
+        padding-left: 1.5rem;
+    }
+
+    #section-4 .section-4-content-1 .about{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: default;
+        padding-top: 1rem;
+    }
+
+    #section-4 .what-we-offer h2{
+        padding-left: 1.5rem;
+        font-size: 2.5rem;
+        padding-top: 1rem;
+        margin-bottom: 1.5rem;
+        cursor: default;
+    }
+
+    #section-4 .section-4-img{
+        background-image: url("../images/tools.png");
+        width: 100vw;
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-position: center right;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-2 img{
+        width: 1.6rem;
+        height: 1.6rem;
+        vertical-align: middle;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-2 h3{
+        display: inline-block;
+        font-size: 1.5rem;
+        vertical-align: middle;
+        cursor: default;
+        padding-left: 0.5rem;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-2 p{
+        font-size: 1.2rem;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+        line-height: 2;
+        cursor: default;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2{
+        padding-left: 1rem;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-3 img{
+        width: 1.6rem;
+        height: 1.6rem;
+        vertical-align: middle;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-3 h3{
+        display: inline-block;
+        font-size: 1.5rem;
+        vertical-align: middle;
+        cursor: default;
+        padding-left: 0.5rem;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-3 p{
+        font-size: 1.2rem;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+        line-height: 2;
+        cursor: default;
+    }
+
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-4 img{
+        width: 1.6rem;
+        height: 1.6rem;
+        vertical-align: middle;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-4 h3{
+        display: inline-block;
+        font-size: 1.5rem;
+        vertical-align: middle;
+        cursor: default;
+        padding-left: 0.5rem;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-4 p{
+        font-size: 1.5rem;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+        line-height: 2;
+        cursor: default;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+/* #################   Section 5 Styling   ################ */
+
+    #section-5{
+        background: #EFEFEF;
+        padding-left: 1.5rem;
+        padding-bottom: 5rem;
+    }
+
+    #section-5 p{
+        font-size: 1.5rem;
+        padding-top: 2rem;
+        margin-bottom: 4rem;
+        cursor: default;
+    }
+
+    #section-5 p br{
+        display: none;
+    }
+
+    #section-5 .section-5-flex img{
+        display: block;
+        width: 12%;
+        margin-bottom: 4rem;
+    }
+
+    #section-5 .section-5-flex {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 0rem;
+    }
+
+
+    #section-5 .btn a{
+        text-decoration: none;
+        display: flex;
+        font-size: 1.1rem;
+        color: #000;
+    }
+
+    #section-5 .btn img{
+        width: 7px;
+        height: 10px;
+        margin-top: 0.1rem;
+    }
+
+    #section-5 .btn a .btn-explore{
+        padding-left: 0.5rem;
+    }
+
+/* #################   Section 6 Styling   ################ */
+
+    #section-6{
+        padding-bottom: 0rem;
+    }
+
+    #section-6 .section-6-content-1 .line{
+        width: 100vw;
+        height: 0.2rem;
+        margin-right: 1.5rem;
+        background: #4eff2f;
+        align-self: center;
+    }
+
+    #section-6 .section-6-content-1 .testimonials h3{
+        display: inline-block;
+        font-size: 1.1rem;
+        padding-right: 0.5rem;
+        padding-left: 0.4rem;
+        vertical-align: middle;
+    }
+
+    #section-6 .section-6-content-1 .testimonials img{
+        vertical-align: middle;
+        width: 7px;
+        height: 10px;
+    }
+
+    #section-6 {
+        padding-left: 1.5rem;
+    }
+
+
+    #section-6 .section-6-content-1 .testimonials{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: default;
+        padding-top: 2rem;
+    }
+
+    #section-6 .section-6-flex-1 h2{
+        font-size: 2rem;
+        cursor: default;
+    }
+
+    #section-6 .section-6-flex-1 p{
+        font-size: 1.3rem;
+        padding-top: 1rem;
+        cursor: default;
+        text-align: justify;
+    }
+
+    #section-6 .section-6-flex-1 p br{
+        display: none;
+    }
+
+    #section-6 .section-6-flex-1 h3{
+        font-size: 1.2rem;
+        padding-top: 1rem;
+        cursor: default;
+    }
+
+    #section-6 .section-6-flex-1{
+        display: block;
+        justify-content: space-between;
+        padding-top: 1rem;
+    }
+
+    #section-6 .btn  a{
+        text-decoration: none;
+        color: #000;
+        font-size: 1.2rem;
+        display: flex;
+    }
+
+    #section-6 .btn  a .explore-btn{
+        padding-left: 0.5rem;
+        padding-bottom: 2rem;
+    }
+
+    #section-6 .btn img{
+        width: 7px;
+        height: 10px;
+        margin-top: 0.3rem;
+    }
+
+    #section-6 .btn{
+        padding-left: 9rem;
+        margin-top: 1rem;
+
+    }
+
+    #section-6 .flexing{
+        display: block;
+        justify-content: space-around;
+        padding-right: 1.5rem;
+
+    }
+
+    #section-6 .flexing .lefting{
+        padding-right: 1.5rem;
+    }
+
+/* #################   Section 7 Styling   ################ */
+
+    #section-7{
+        background: #EFEFEF;
+    }
+
+    #section-7 .bg-img{
+        background-image: url("../images/map.png");
+        width: 90vw;
+        height: 35rem;
+        background-size: cover;
+        margin: 0 auto;
+    }
+
+    #section-7 .bg-img p{
+        font-size: 1.8rem;
+        font-weight: 700;
+        padding-top: 10rem;
+        margin-bottom: 4rem;
+        padding-left: 1.5rem;
+    }
+
+    #section-7 .bg-img p br{
+        display: none;
+    }
+
+    #section-7 .section-7-content-1  h1{
+        font-size: 3rem;
+
+    }
+
+    #section-7 .section-7-content-1 h4{
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #section-7 .section-7-content-1{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 1rem;
+    }
+
+/* ################   Footer Styling   ################ */
+
+
+    #footer{
+        background: #000;
+    }
+
+    #footer .para p{
+        color: #fff;
+        font-size: 1.5rem;
+        padding-left: 1.5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 5rem;
+        cursor: default;
+    }
+
+    #footer .para p u{
+        color: #4eff2f;
+        font-size: 1.8rem;
+    }
+
+    #footer .main-flex-6{
+        padding-left: 1.5rem;
+    }
+
+
+    #footer .main-flex-6  h3{
+        font-size: 1.4rem;
+        font-weight: 500;
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+        color: #fff;
+        cursor: default;
+    }
+
+    #footer .main-flex-6  a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.1rem;
+    }
+
+    #footer .main-flex-6 .input-fields input{
+        width: 27rem;
+        height: 2.5rem;
+        padding: 1rem;
+        font-size: 1.2rem;
+        outline: none;
+        margin-top: 1rem;
+        font-weight: 500;
+        background: transparent;
+        color: #fff;
+        border: none;
+        border-bottom: 2px solid gray;
+    }
+
+    #footer .main-flex-6 textarea{
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 1rem;
+        width: 27rem;
+        height: 10rem;
+        outline: none;
+        margin-top: 2rem;
+        background: transparent;
+        color: #fff;
+        border: none;
+        border-bottom: 2px solid gray;
+    }
+
+    #footer .main-flex-6 textarea:focus{
+        border-bottom: 0px;
+    }
+
+    #footer .main-flex-6 input:focus{
+        border-bottom: 0px;
+    }
+
+    #footer .main-flex-6 .footer-content-1 h3{
+        padding-bottom: 0;
+    }
+
+
+    #footer .main-flex-6 .submit-btn{
+        border: none;
+        background-color: transparent;
+        color: #4eff2f;
+        margin-top: 3rem;
+        padding-right: 4rem;
+        margin-bottom: 3rem;
+        font-size: 2.1rem;
+        background-image: url("../images/res_arrow.svg");
+        background-repeat: no-repeat;
+        background-position: 95% 55%;
+    }
+
+    #footer .main-flex-6 .footer-content-2 h3{
+        padding-bottom: 1rem;
+        display: inline-block;
+        vertical-align: middle;
+        cursor: default;
+    }
+
+    #footer .main-flex-6 .footer-content-2 img{
+        width: 2rem;
+        height: 2rem;
+        vertical-align: middle;
+        margin-right: 0.5rem;
+    }
+
+    #footer .main-flex-6 .footer-content-2 .soc{
+        margin-left: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    #footer .main-flex-6{
+        display: block;
+        justify-content: space-around;
+    }
+
+    #footer .design p{
+        font-size: 0.5rem;
+        font-weight: 700;
+        color: gray;
+        padding-left: 2rem;
+    }
+
+    #footer .design .terms-privacy a{
+        text-decoration: none;
+        font-size: 0.7rem;
+        font-weight: 700;
+        color: gray;
+        padding-left: 1rem;
+    }
+
+    #footer .design{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+        padding-top: 4rem;
+    }
+
+
+/* -------------------------   Work Page Styling   ------------------------- */
+
+/* ################   Section Work 1 Styling   ################ */
+
+    #section-work-1{
+        padding-bottom: 5rem;
+    }
+
+    #section-work-1 .section-work-1-con-1 h1{
+        font-size: 2.8rem;
+        font-weight: 600;
+    }
+
+    #section-work-1 .section-work-1-con-1 p{
+        font-size: 1.3rem;
+        padding-top: 1rem;
+    }
+
+    #section-work-1 .section-work-1-con-1{
+    padding-top: 10rem;
+    padding-left: 1.5rem;
+    cursor: default;
+    }
+
+
+    #section-2 .main-flex-3{
+        display: block;
+        flex-direction: row;
+        padding-bottom: 5rem;
+    }
+
+    #section-2 .main-flex-3 .box-5{
+        background: rgba(255,190,0,.18);
+    }
+
+    #section-2 .main-flex-3 .box-6{
+        background: rgba(0,118,217,.09);
+    }
+
+
+
+/* -----------------------   About page Styling   ---------------------------- */
+
+    #section-about-1 .section-about-1-con-1 h1{
+        font-size: 2.8rem;
+        font-weight: 600;
+    }
+
+    #section-about-1 .section-about-1-con-1 p{
+        font-size: 1.3rem;
+        padding-top: 1rem;
+    }
+
+    #section-about-1 .section-about-1-con-1 p br{
+        display: none;
+    }
+
+    #section-about-1 .section-about-1-con-1{
+        margin-top: 9rem;
+        margin-bottom: 4rem;
+        margin-left: 1.5rem;
+        cursor: default;
+    }
+
+    #section-about-2 .section-2-about-content-1 .line{
+        width: 100vw;
+        height: 0.2rem;
+        margin-right: 1.5rem;
+        background: #4eff2f;
+        align-self: center;
+    }
+
+    #section-about-2 .section-2-about-content-1 .our-company h3{
+        display: inline-block;
+        font-size: 1.1rem;
+        padding-right: 0.5rem;
+        padding-left: 0.4rem;
+        vertical-align: middle;
+    }
+
+    #section-about-2 .section-2-about-content-1 .our-company img{
+        vertical-align: middle;
+        width: 7px;
+        height: 10px;
+
+    }
+
+    #section-about-2 .section-2-about-content-1 .our-company{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: default;
+        padding-top: 1rem;
+    }
+
+    #section-about-2{
+        padding-left: 1.5rem;
+    }
+
+
+    #section-about-2  .about-flex-1 .small-but-sharp h1{
+        font-size: 2rem;
+        cursor: default;
+    }
+
+    #section-about-2 .about-flex-1 .section-about-2-content-2 p{
+        font-size: 1.3rem;
+        cursor: default;
+        text-align: justify;
+    }
+
+    #section-about-2 .about-flex-1 .section-about-2-content-2 p br{
+        display: none;
+    }
+
+    #section-about-2  .about-flex-1 .section-about-2-content-2{
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+    }
+
+    #section-about-2  .about-flex-1 .flexing-2{
+        display: block;
+        justify-content: space-evenly;
+    }
+
+
+    #section-about-2  .about-flex-1 .flexing-2 .pad{
+        padding-right: 1.5rem;
+    }
+
+    #section-about-2 .about-flex-1{
+        display: block;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+
+    #section-about-3{
+        background: #000;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-about-3 .how-we-do{
+        font-size: 1.1rem;
+        color: #fff;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        cursor: default;
+    }
+
+    #section-about-3 .about-flex-2 .our-philo h1{
+        font-size: 2rem;
+        cursor: default;
+        color: #fff;
+        padding-bottom: 2rem;
+    }
+
+    #section-about-3 .about-flex-2 .flexing-3{
+        display: block;
+    }
+
+    #section-about-3 .about-flex-2 .section-about-3-con-3 h3{
+        color: #fff;
+        font-size: 1.1rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        cursor: default;
+    }
+
+    #section-about-3 .about-flex-2 .section-about-3-con-3 p{
+        color: #fff;
+        font-size: 0.9rem;
+        padding-bottom: 1rem;
+        cursor: default;
+    }
+
+    #section-about-3 .about-flex-2 .section-about-3-con-3 p br{
+        display: none;
+    }
+
+    #section-about-3 .about-flex-2 .left{
+        padding-left: 0rem;
+    }
+
+    #section-about-3 .about-flex-2 .right{
+        padding-left: 0rem;
+    }
+
+    #section-about-3 .about-flex-2 {
+        display: block;
+        justify-content: space-between;
+        margin-bottom: 0rem;
+    }
+
+    #section-about-3 .about-flex-3 .section-about-3-con-3 h3{
+        color: #fff;
+        font-size: 1.1rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        cursor: default;
+    }
+
+    #section-about-3 .about-flex-3 .section-about-3-con-3 p{
+        color: #fff;
+        font-size: 0.9rem;
+        padding-bottom: 1rem;
+        cursor: default;
+    }
+
+    #section-about-3 .about-flex-3 .section-about-3-con-3 p br{
+        display: none;
+    }
+
+
+
+    #section-about-3 .about-flex-3{
+        display: block;
+        justify-content: space-around;
+        padding-bottom: 10rem;
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+
+
+
+    #section-about-4{
+        background-color: #000;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+
+    #section-about-4 .line{
+        width: 100%;
+        height: 0.1rem;
+        background: #4eff2f;
+    } 
+
+
+    #section-about-4 .years-of-experience{
+        font-size: 1.1rem;
+        padding-bottom: 5rem;
+        padding-top: 2rem;
+        color: #fff;
+        cursor: default;
+    }
+
+    #section-about-4 .section-3-content p{
+        font-size: 1.8rem;
+        color: #fff;
+        cursor: default;
+    }
+
+    #section-about-4 .section-3-content p br{
+        display: none;
+    }
+
+    #section-about-4 .img-box .client-logo{
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+
+    #section-about-4 .img-box-1{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    }
+
+    #section-about-4 .img-box-1 .client-logo-2{
+        width: 25%;
+    }
+
+    #section-about-4 .img-box-3 .client-logo-3{
+        width: 40%;
+    }
+
+    #section-about-4 .img-box-2 .client-logo-4{
+        width: 40%;
+    }
+
+    #section-about-4 .img-box-2 .client-logo-5{
+        width: 40%;
+    }
+
+    #section-about-4 .img-box-2{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    }
+
+
+
+    #section-about-4 .img-box-3{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    }
+
+
+    #section-about-4 .img-box img{
+        display: block;
+        margin-right: 2rem;
+    }
+
+    #section-about-4 .img-box{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #section-about-4 .main-flex-3{
+        display: block;
+        justify-content: space-between;
+    }
+
+
+
+/* -------------------------   Approach Page Styling   ----------------------- */
+
+    #section-approach-1 .section-approach-1-con-1 h1{
+        font-size: 2.8rem;
+    }
+
+    #section-approach-1 .section-approach-1-con-1 p{
+        font-size: 1.3rem;
+        padding-top: 1rem;
+    }
+
+    #section-approach-1 .section-approach-1-con-1 p br{
+        display: none;
+    }
+
+    #section-approach-1 .section-approach-1-con-1{
+    margin-top: 9rem;
+    margin-bottom: 5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    cursor: default;
+    }
+
+
+
+    #section-approach-2{
+        padding-left: 1.5rem;
+    }
+
+    #section-approach-2 .section-2-approach-content-1 .line{
+        width: 100vw;
+        height: 0.2rem;
+        margin-right: 1.5rem;
+        background: #4eff2f;
+    }
+
+    #section-approach-2 .section-2-approach-content-1 .how-its-work h3{
+        display: inline-block;
+        font-size: 1.1rem;
+        padding-left: 0.4rem;
+        padding-right: 0.5rem;
+        vertical-align: middle;
+    }
+
+    #section-approach-2 .section-2-approach-content-1 .how-its-work img{
+        vertical-align: middle;
+        width: 7px;
+        height: 10px;
+    }
+
+
+    #section-approach-2 .section-2-approach-content-1 .how-its-work{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        cursor: default;
+        padding-top: 1rem
+    }
+
+
+    #section-approach-2 .approach-flex-1 .our-pro h1{
+        font-size: 2.5rem;
+        cursor: default;
+    }
+
+    #section-approach-2 .approach-flex-1 .flexing-5{
+        display: block;
+    }
+
+    #section-approach-2 .approach-flex-1 .section-approach-2-con-1 h2{
+        font-size: 2rem;
+        padding-top: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-approach-2 .approach-flex-1 .section-approach-2-con-1 p{
+        font-size: 1.2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: justify;
+    }
+
+    #section-approach-2 .approach-flex-1 .section-approach-2-con-1 p br{
+        display: none;
+    }
+
+    #section-approach-2 .approach-flex-1 .left{
+        margin-left: 0rem;
+    }
+
+    #section-approach-2 .approach-flex-1{
+        display: block;
+        justify-content: space-around;
+        padding-top: 3rem;
+    }
+
+    #section-approach-2 .approach-flex-2 .section-approach-2-con-2 h2{
+        font-size: 2rem;
+        padding-top: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-approach-2 .approach-flex-2 .section-approach-2-con-2 p{
+        font-size: 1.2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: justify;
+    }
+
+    #section-approach-2 .approach-flex-2 .section-approach-2-con-2 p br{
+        display: none;
+    }
+
+    #section-approach-2 .approach-flex-2{
+        display: block;
+        justify-content: space-around;
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    #section-approach-2 .approach-flex-3 .section-approach-2-con-3 h2{
+        font-size: 2rem;
+        padding-top: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-approach-2 .approach-flex-3 .section-approach-2-con-3 p{
+        font-size: 1.2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: justify;
+    }
+
+    #section-approach-2 .approach-flex-3 .section-approach-2-con-3 p br{
+        display: none;
+    }
+
+    #section-approach-2 .approach-flex-3{
+        display: block;
+        justify-content: space-around;
+        padding-bottom: 2rem;
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+
+
+    #section-approach-3{
+        background: #000;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-approach-3 .services{
+        font-size: 1.1rem;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+        cursor: default;
+        color: #fff;
+    }
+
+    #section-approach-3 .approach-flex-4 h1{
+        font-size: 2.5rem;
+        cursor: default;
+        color: #fff;
+    }
+
+    #section-approach-3 .approach-flex-4 .flexing-6{
+        display: block;
+    }
+
+    #section-approach-3 .approach-flex-4 .section-approach-3-con-1 h3{
+        font-size: 1.8rem;
+        padding-top: 1.5rem;
+        color: #fff;
+    }
+
+    #section-approach-3 .approach-flex-4 .section-approach-3-con-1 p{
+        font-size: 1.2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        color: #fff;
+        text-align: justify;
+    }
+
+    #section-approach-3 .approach-flex-4 .section-approach-3-con-1 p br{
+        display: none;
+    }
+
+    #section-approach-3 .approach-flex-4{
+        display: block;
+        justify-content: space-around;
+    }
+
+    #section-approach-3 .approach-flex-4 .left{
+        margin-left: 0rem;
+    }
+
+    #section-approach-3 .approach-flex-4 .right{
+        padding-left: 0rem;
+    }
+
+    #section-approach-3 .approach-flex-5 .section-approach-3-con-2 h3{
+        font-size: 1.8rem;
+        padding-top: 1.5rem;
+        color: #fff;
+    }
+
+    #section-approach-3 .approach-flex-5 .section-approach-3-con-2 p{
+        font-size: 1.2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        color: #fff;
+        text-align: justify;
+    }
+
+    #section-approach-3 .approach-flex-5 .section-approach-3-con-2 p br{
+        display: none;
+    }
+
+    #section-approach-3 .approach-flex-5{
+        display: block;
+        width: 100%;
+        margin-left: 0rem;
+        padding-bottom: 2rem;
+    }
+
+
+    #section-approach-4{
+        padding-left: 1.5rem;
+    }
+
+    #section-approach-4 .section-approach-4-content-1 .line{
+        width: 100vw;
+        height: 0.2rem;
+        margin-right: 1.5rem;
+        background: #4eff2f;
+        align-self: center;
+    }
+
+    #section-approach-4 .section-approach-4-content-1 .servicess h3{
+        display: inline-block;
+        font-size: 1.1rem;
+        padding-right: 0.5rem;
+        padding-left: 0.4rem;
+        vertical-align: middle;
+    }
+
+    #section-approach-4 .section-approach-4-content-1 .servicess img{
+        vertical-align: middle;
+        width: 7px;
+        height: 10px;
+    }
+
+
+    #section-approach-4 .section-approach-4-content-1 .servicess{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        cursor: default;
+        padding-top: 1.5rem
+    }
+
+
+    #section-approach-4 .approach-flex-6 h1{
+        font-size: 2.5rem
+    }
+
+    #section-approach-4 .approach-flex-6 .flexing-7{
+        display: block;
+    }
+
+    #section-approach-4  .approach-flex-6 .section-approach-4-con-1 h2{
+        font-size: 2rem;
+        padding-top: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-approach-4 .approach-flex-6 .section-approach-4-con-1 p{
+        font-size: 1.2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: justify;
+    }
+
+    #section-approach-4 .approach-flex-6 .section-approach-4-con-1 p br{
+        display: none;
+    }
+
+    #section-approach-4 .approach-flex-6{
+        display: block;
+        justify-content: space-around;
+        padding-top: 1.5rem;
+    }
+
+    #section-approach-4 .approach-flex-6 .left{
+        margin-left: 0rem;
+    }
+
+    #section-approach-4 .approach-flex-7 .section-approach-4-con-2 h2{
+        font-size: 2rem;
+        padding-top: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-approach-4 .approach-flex-7 .section-approach-4-con-2 p{
+        font-size: 1.2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: justify;
+    }
+
+    #section-approach-4 .approach-flex-7 .section-approach-4-con-2 p br{
+        display: none;
+    }
+
+    #section-approach-4 .approach-flex-7{
+        display: block;
+        justify-content: space-around;
+        width: 100%;
+        margin-left: 0rem;
+        padding-bottom: 2rem;
+    }
+
+
+
+/* --------------------------   Contact Page Styling   ------------------------- */
+
+
+    #contact .section-contact-1-con-1 h1{
+        font-size: 2.8rem;
+        font-weight: 600;
+        color: #000;
+    }
+
+    #contact .section-contact-1-con-1 p{
+        font-size: 1.3rem;
+        color: #000;
+        padding-top: 1rem;
+    }
+
+    #contact .section-contact-1-con-1 p br{
+        display: none;
+    }
+
+    #contact .section-contact-1-con-1{
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    cursor: default;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    }
+
+    .line-contact{
+        width: 100%;
+        margin: 0 auto;
+        height: 2px;
+        background: #4eff2f;
+    }
+
+
+/* --------------------------   Terms Page Styling   ------------------------- */
+    #section-terms-1{
+        padding-bottom: 5rem;
+        margin-top: 6rem;
+        padding-left: 1.5rem;
+        line-height: 2;
+        padding-right: 1.5rem;
+    }
+
+    #section-terms-1 h1{
+        font-size: 3rem;
+        cursor: default;
+        font-weight: 600;
+    }
+
+    #section-terms-1  h2{
+        font-size: 2.5rem;
+        margin-top: 2rem;
+        font-weight: 600;
+        cursor: default;
+    }
+
+    #section-terms-1  p{
+        font-size: 1.1rem;
+        font-weight: 600;
+        cursor: default;
+        text-align: justify;
+    }
+
+    #section-terms-1  p br{
+        display: none;
+    }
+
+    #section-terms-1  ol li{
+        font-size: 1rem;
+        font-weight: 600;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        list-style-position: inside;
+        cursor: default;
+        text-align: justify;
+    }
+
+    #section-terms-1  ol li br{
+        display: none;
+    }
+
+/* --------------------------   Privacy Policy Page Styling   ------------------------- */
+
+    #section-privacy-policy{
+        padding-bottom: 5rem;
+        padding-left: 1.5rem;
+        margin-top: 7rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-privacy-policy h1{
+        font-size: 3rem;
+        font-weight: 600;
+        margin-bottom: 5rem;
+        cursor: default;
+    }
+
+    #section-privacy-policy  .border{
+        border-top: 2px solid #000;
+        display: inline-block;
+        font-size: 1.1rem;
+        font-weight: 600;
+        padding-bottom: 1.5rem;
+        cursor: default;
+    }
+
+    #section-privacy-policy  p{
+        font-size: 1.1rem;
+        font-weight: 600;
+        padding-top: 1.5rem;
+        cursor: default;
+        text-align: justify;
+    }
+
+    #section-privacy-policy  p br{
+        display: none;
+    }
+ 
+
+
+}
+
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+
+    #header{
+        width: 100%;
+    }
+
+
+    #header .navbar .humberger-lines .line{
+        width: 40px;
+        height: 3px;
+        background: #000;
+        margin: 5px;
+        margin-right: 1.5rem;
+        border-radius: 2rem;
+        cursor: pointer;
+        margin-top: 0.7rem;
+    }
+
+    #header .navbar .humberger-lines.white .line{
+        width: 40px;
+        height: 3px;
+        background: #fff;
+        margin: 5px;
+        margin-right: 1.5rem;
+        border-radius: 2rem;
+        cursor: pointer;
+    }
+
+    #header .navbar{
+        width: 100%;
+    }
+    
+
+    #header .navbar .humberger-lines{
+        margin-top: 0.5rem;
+        z-index: 2;
+    }
+
+    
+
+    .nav-items{
+        position: fixed;
+        padding-top: 10rem;
+        padding-bottom: 15vh;
+        background: #000;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        clip-path: circle(100px at 90% -30%);
+        transition: all 1s ease-in-out;
+        -webkit-clip-path: circle(100px at 90% -30%)
+
+    }
+
+    .nav-items.open{
+        clip-path: circle(10000px at 90% -30%);
+        -webkit-clip-path: circle(10000px at 90% -30%)
+    }
+
+
+    #header .navbar .nav-items a{
+        font-size: 3rem;
+        color: #fff;
+        opacity: 0;
+    }
+
+    #header .navbar .nav-items a:nth-child(1){
+        transition: all 0.5s ease 0.1s;
+    }
+    #header .navbar .nav-items a:nth-child(3){
+        transition: all 0.5s ease 0.2s;
+    }
+    #header .navbar .nav-items a:nth-child(5){
+        transition: all 0.5s ease 0.3s;
+    }
+    #header .navbar .nav-items a:nth-child(7){
+        transition: all 0.5s ease 0.4s;
+    }
+
+    #header .navbar .nav-items a.fade{
+        opacity: 1;
+    }
+
+    #header .navbar .nav-items .line{
+        width: 0;
+        height: 0;
+        padding-bottom: 2rem;
+    }
+
+
+
+     /* ###############   Header Navbar Styling   ################ */
+
+     #header .navbar .logo img{
+        width: 12rem;
+        height: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+
+
+/* #################   Section 1 Styling   ################ */
+
+    .bg{
+        background: url("../images/bg.png");
+        width: 100%;
+        height: 50rem;
+        background-repeat: no-repeat;
+        background-position: top center;
+        position: absolute;
+        z-index: 0;
+        top: 15%;
+        left: 0%;
+    }
+
+    #section-1{
+        position: relative;
+    }
+
+    #section-1 .section-1-content-1 h1{
+        font-size: 4.6rem;
+        cursor: default;
+        text-align: center;
+    }
+
+    #section-1 .section-1-content-1 p{
+        font-size: 2.2rem;
+        cursor: default;
+        line-height: 1.2;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+
+    #section-1 .section-1-content-1 {
+        padding-top: 17rem;
+        margin-left: 0rem;
+        z-index: 200;
+        padding-bottom: 15rem;
+    }
+
+
+
+
+    #section-1 .section-1-content-1 .ancher-tag{
+        text-align: center;
+    }
+
+    #section-1 .section-1-content-1 .ancher-tag img{
+        width: 10px;
+        height: 13px;
+    }
+
+
+    #section-1 .section-1-content-1 a{
+        text-decoration: none;
+        background: #000000;
+        display: inline-block;
+        margin-top: 2.5rem;
+        border-radius: 0.3rem;
+        padding-right: 3rem;
+        padding-left: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #section-1 .section-1-content-1 a img{
+        vertical-align: middle;
+    }
+
+    #section-1 .section-1-content-1 a h3{
+        display: inline-block;
+        color: #fff;
+        font-size: 1.6rem;
+        vertical-align: middle;
+        padding-left: 0.9rem;
+        line-height: 4.3rem;
+        letter-spacing: 0.2px
+    }
+
+    #section-1 .section-1-content-1 a:hover{
+        background: #333;
+    }
+
+/* #################   Section 2 Styling   ################ */
+
+    #section-2{
+        margin-top: 0rem;
+    }
+
+    #section-2 .section-2-content-1 .line{
+        width: 100vw;
+        height: 0.2rem;
+        margin-right: 1.5rem;
+        background: #4eff2f;
+        align-self: center;
+    }
+
+    #section-2 .section-2-content-1 .work h3{
+        display: inline-block;
+        font-size: 1.8rem;
+        padding-right: 0.5rem;
+        padding-left: 0.4rem;
+        vertical-align: middle;
+    }
+
+    #section-2 .section-2-content-1 .work img{
+        vertical-align: middle;
+        width: 15px;
+        height: 13px;
+    }
+
+    #section-2 .section-2-content-1 .work{
+        padding-left: 1.5rem;
+    }
+
+
+    #section-2 .section-2-content-1 .work{
+        display: flex;
+        justify-content: space-around;
+        cursor: default;
+    }
+
+
+
+    #section-2 .main-flex .box a{
+        text-decoration: none;
+        color: #1b1b1b;
+    }
+
+    #section-2 .main-flex .box .work-info .brand-name{
+        font-size: 2.2rem;
+        padding-top: 5rem;
+        font-weight: 700;
+    }
+
+    #section-2 .main-flex .box .work-info .service-type{
+        font-size: 1.8rem;
+        padding-top: 1.5rem;
+    }
+
+
+    #section-2 .main-flex .box{
+        width: 100%;
+        padding-bottom: 2rem;
+        padding-top: 5rem;
+        margin-left: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    #section-2 .main-flex .box img{
+        display: block;
+        width: 100%;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    #section-2 .main-flex{
+        display: block;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 1rem;
+        padding-right: 1.3rem;
+        padding-left: 1.5rem;
+    }
+
+    #section-2 .main-flex-2{
+        display: block;
+        flex-direction: row;
+    }
+
+    #section-2 .main-flex .box .work-info{
+        padding-left: 2rem;
+    }
+
+    #section-2 .main-flex .box-1{
+        background: #f9f3ec;
+    }
+
+    #section-2 .main-flex .box-2{
+        background: #b9d4ff;
+    }
+
+    #section-2 .main-flex-2 .box-3{
+        background: #c7ffe2;
+    }
+
+    #section-2 .main-flex-2 .box-4{
+        background: #ffcece;
+    }
+
+
+    #section-2 .explore-btn a{
+        text-decoration: none;
+        color: #121212;
+        font-size: 1.8rem;
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    #section-2 .explore-btn img{
+        width: 15px;
+        height: 13px;
+        vertical-align: middle;
+        margin-top: 0.5rem;
+    }
+
+    #section-2 .explore-all-btn{
+        padding-left: 0.5rem;
+        vertical-align: middle;
+    }
+
+    /* #################   Section 3 Styling   ################ */
+
+    #section-3{
+        position: relative;
+    }
+
+    #section-3 .bg-img{
+        background-image:url("../images/people.png");
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 25rem;
+        background-size: cover;
+        background-position: 50% 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #section-3 .bg-img p{
+        font-size: 2.5rem;
+        text-align: center;
+        font-style: italic;
+        font-weight: 300;
+        z-index: 200;
+        color: #fff;
+        cursor: default;
+    }
+
+    #section-3 .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #12af34cb;
+    }
+
+/* #################   Section 4 Styling   ################ */
+
+    #section-4 .section-4-content-1 .line{
+        width: 100vw;
+        height: 0.2rem;
+        margin-right: 1.5rem;
+        background: #4eff2f;
+        align-self: center;
+    }
+
+    #section-4 .section-4-content-1 .about h3{
+        display: inline-block;
+        font-size: 1.8rem;
+        padding-right: 0.5rem;
+        padding-left: 0.4rem;
+        vertical-align: middle;
+    }
+
+    #section-4 .section-4-content-1 .about img{
+        vertical-align: middle;
+        width: 15px;
+        height: 13px;
+    }
+
+    #section-4 .section-4-content-1 .about{
+        padding-left: 1.5rem;
+    }
+
+    #section-4 .section-4-content-1 .about{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: default;
+        padding-top: 1rem;
+    }
+
+    #section-4 .what-we-offer h2{
+        padding-left: 1.5rem;
+        font-size: 3.5rem;
+        padding-top: 1rem;
+        margin-bottom: 1.5rem;
+        cursor: default;
+    }
+
+    #section-4 .section-4-img{
+        background-image: url("../images/tools.png");
+        width: 100vw;
+        height: 68vh;
+        background-repeat: no-repeat;
+        background-position: center right;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-2 img{
+        width: 2rem;
+        height: 2rem;
+        vertical-align: middle;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-2 h3{
+        display: inline-block;
+        font-size: 2.2rem;
+        vertical-align: middle;
+        cursor: default;
+        padding-left: 0.5rem;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-2 p{
+        font-size: 1.8rem;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+        line-height: 2;
+        cursor: default;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2{
+        padding-left: 1rem;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-3 img{
+        width: 2rem;
+        height: 2rem;
+        vertical-align: middle;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-3 h3{
+        display: inline-block;
+        font-size: 2.2rem;
+        vertical-align: middle;
+        cursor: default;
+        padding-left: 0.5rem;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-3 p{
+        font-size: 1.8rem;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+        line-height: 2;
+        cursor: default;
+    }
+
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-4 img{
+        width: 2rem;
+        height: 2rem;
+        vertical-align: middle;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-4 h3{
+        display: inline-block;
+        font-size: 2.2rem;
+        vertical-align: middle;
+        cursor: default;
+        padding-left: 0.5rem;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2 .section-4-content-4 p{
+        font-size: 1.8rem;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+        line-height: 2;
+        cursor: default;
+    }
+
+    #section-4 .section-4-img .section-4-flex-2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+/* #################   Section 5 Styling   ################ */
+
+    #section-5{
+        background: #EFEFEF;
+        padding-left: 1.5rem;
+        padding-bottom: 5rem;
+    }
+
+    #section-5 p{
+        font-size: 2.2rem;
+        padding-top: 2rem;
+        margin-bottom: 7rem;
+        cursor: default;
+    }
+
+    #section-5 p br{
+        display: none;
+    }
+
+    #section-5 .section-5-flex img{
+        display: block;
+        width: 12%;
+        margin-bottom: 7rem;
+    }
+
+    #section-5 .section-5-flex {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 0rem;
+    }
+
+
+    #section-5 .btn a{
+        text-decoration: none;
+        display: flex;
+        font-size: 1.8rem;
+        color: #000;
+    }
+
+    #section-5 .btn img{
+        width: 15px;
+        height: 13px;
+        margin-top: 0.5rem;
+    }
+
+    #section-5 .btn a .btn-explore{
+        padding-left: 0.5rem;
+    }
+
+/* #################   Section 6 Styling   ################ */
+
+    #section-6{
+        padding-bottom: 0rem;
+    }
+
+    #section-6 .section-6-content-1 .line{
+        width: 100vw;
+        height: 0.2rem;
+        margin-right: 1.5rem;
+        background: #4eff2f;
+        align-self: center;
+    }
+
+    #section-6 .section-6-content-1 .testimonials h3{
+        display: inline-block;
+        font-size: 1.8rem;
+        padding-right: 0.5rem;
+        padding-left: 0.4rem;
+        vertical-align: middle;
+    }
+
+    #section-6 .section-6-content-1 .testimonials img{
+        vertical-align: middle;
+        width: 15px;
+        height: 13px;
+    }
+
+    #section-6 {
+        padding-left: 1.5rem;
+    }
+
+
+    #section-6 .section-6-content-1 .testimonials{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: default;
+        padding-top: 2rem;
+    }
+
+    #section-6 .section-6-flex-1 h2{
+        font-size: 3.5rem;
+        cursor: default;
+    }
+
+    #section-6 .section-6-flex-1 p{
+        font-size: 2rem;
+        padding-top: 1rem;
+        cursor: default;
+        text-align: justify;
+    }
+
+    #section-6 .section-6-flex-1 p br{
+        display: block;
+    }
+
+    #section-6 .section-6-flex-1 h3{
+        font-size: 1.9rem;
+        padding-top: 1rem;
+        cursor: default;
+    }
+
+    #section-6 .section-6-flex-1{
+        display: block;
+        justify-content: space-between;
+        padding-top: 1rem;
+    }
+
+    #section-6 .btn  a{
+        text-decoration: none;
+        color: #000;
+        padding-top: 3rem;
+        font-size: 1.8rem;
+        display: flex;
+    }
+
+    #section-6 .btn  a .explore-btn{
+        padding-left: 0.5rem;
+        padding-bottom: 2rem;
+    }
+
+    #section-6 .btn img{
+        width: 15px;
+        height: 13px;
+        margin-top: 0.6rem;
+    }
+
+    #section-6 .btn{
+        padding-left: 9rem;
+        margin-top: 1rem;
+
+    }
+
+    #section-6 .flexing{
+        display: flex;
+        justify-content: space-around;
+        padding-right: 1.5rem;
+
+    }
+
+    #section-6 .flexing .lefting{
+        padding-right: 1.5rem;
+    }
+
+/* #################   Section 7 Styling   ################ */
+
+    #section-7{
+        background: #EFEFEF;
+    }
+
+    #section-7 .bg-img{
+        background-image: url("../images/map.png");
+        width: 90vw;
+        height: 35rem;
+        background-size: cover;
+        margin: 0 auto;
+    }
+
+    #section-7 .bg-img p{
+        font-size: 2.5rem;
+        font-weight: 700;
+        padding-top: 10rem;
+        margin-bottom: 4rem;
+        padding-left: 1.5rem;
+    }
+
+    #section-7 .bg-img p br{
+        display: none;
+    }
+
+    #section-7 .section-7-content-1  h1{
+        font-size: 6rem;
+
+    }
+
+    #section-7 .section-7-content-1 h4{
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+    }
+
+    #section-7 .section-7-content-1{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 1rem;
+    }
+
+/* ################   Footer Styling   ################ */
+
+
+    #footer{
+        background: #000;
+    }
+
+    #footer .para p{
+        color: #fff;
+        font-size: 2rem;
+        padding-left: 1.5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 5rem;
+        cursor: default;
+    }
+
+    #footer .para p u{
+        color: #4eff2f;
+        font-size: 2.3rem;
+    }
+
+    #footer .main-flex-6{
+        padding-left: 1.5rem;
+    }
+
+
+    #footer .main-flex-6  h3{
+        font-size: 2rem;
+        font-weight: 500;
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+        color: #fff;
+        cursor: default;
+    }
+
+    #footer .main-flex-6  a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.3rem;
+    }
+
+    #footer .main-flex-6 .input-fields input{
+        width: 28rem;
+        height: 3.5rem;
+        padding: 1.5rem;
+        font-size: 1.8rem;
+        outline: none;
+        margin-top: 1rem;
+        font-weight: 500;
+        background: transparent;
+        color: #fff;
+        border: none;
+        border-bottom: 2px solid gray;
+    }
+
+    #footer .main-flex-6 textarea{
+        font-size: 2.1rem;
+        font-weight: 500;
+        padding: 1.5rem;
+        width: 28rem;
+        height: 15rem;
+        outline: none;
+        margin-top: 2rem;
+        background: transparent;
+        color: #fff;
+        border: none;
+        border-bottom: 2px solid gray;
+    }
+
+    #footer .main-flex-6 textarea:focus{
+        border-bottom: 0px;
+    }
+
+    #footer .main-flex-6 input:focus{
+        border-bottom: 0px;
+    }
+
+    #footer .main-flex-6 .footer-content-1 h3{
+        padding-bottom: 0;
+    }
+
+
+    #footer .main-flex-6 .submit-btn{
+        border: none;
+        background-color: transparent;
+        color: #4eff2f;
+        margin-top: 3rem;
+        padding-right: 4rem;
+        margin-bottom: 3rem;
+        font-size: 2.8rem;
+        background-image: url("../images/res_arrow.svg");
+        background-repeat: no-repeat;
+        background-position: 95% 55%;
+    }
+
+    #footer .main-flex-6 .footer-content-2 h3{
+        padding-bottom: 1.5rem;
+        display: inline-block;
+        vertical-align: middle;
+        cursor: default;
+    }
+
+    #footer .main-flex-6 .footer-content-2 img{
+        width: 2.5rem;
+        height: 2.5rem;
+        vertical-align: middle;
+        margin-right: 0.2rem;
+    }
+
+    #footer .main-flex-6 .footer-content-2 .soc{
+        margin-left: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    #footer .main-flex-6{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #footer .design p{
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: gray;
+        padding-left: 2rem;
+    }
+
+    #footer .design .terms-privacy a{
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 700;
+        color: gray;
+        padding-left: 1rem;
+    }
+
+    #footer .design{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+        padding-top: 4rem;
+    }
+
+
+/* -------------------------   Work Page Styling   ------------------------- */
+
+/* ################   Section Work 1 Styling   ################ */
+
+    #section-work-1{
+        padding-bottom: 8rem;
+    }
+
+    #section-work-1 .section-work-1-con-1 h1{
+        font-size: 4.7rem;
+        font-weight: 600;
+    }
+
+    #section-work-1 .section-work-1-con-1 p{
+        font-size: 2.1rem;
+        padding-top: 1rem;
+    }
+
+    #section-work-1 .section-work-1-con-1{
+    padding-top: 15rem;
+    padding-left: 1.5rem;
+    cursor: default;
+    }
+
+
+    #section-2 .main-flex-3{
+        display: block;
+        flex-direction: row;
+        padding-bottom: 5rem;
+    }
+
+    #section-2 .main-flex-3 .box-5{
+        background: rgba(255,190,0,.18);
+    }
+
+    #section-2 .main-flex-3 .box-6{
+        background: rgba(0,118,217,.09);
+    }
+
+
+
+/* -----------------------   About page Styling   ---------------------------- */
+
+    #section-about-1 .section-about-1-con-1 h1{
+        font-size: 4.7rem;
+        font-weight: 600;
+    }
+
+    #section-about-1 .section-about-1-con-1 p{
+        font-size: 2.1rem;
+        padding-top: 1rem;
+    }
+
+    #section-about-1 .section-about-1-con-1 p br{
+        display: block;
+    }
+
+    #section-about-1 .section-about-1-con-1{
+        margin-top: 12rem;
+        margin-bottom: 7rem;
+        margin-left: 1.5rem;
+        cursor: default;
+    }
+
+    #section-about-2 .section-2-about-content-1 .line{
+        width: 100vw;
+        height: 0.2rem;
+        margin-right: 1.5rem;
+        background: #4eff2f;
+        align-self: center;
+    }
+
+    #section-about-2 .section-2-about-content-1 .our-company h3{
+        display: inline-block;
+        font-size: 1.8rem;
+        padding-right: 0.5rem;
+        padding-left: 0.4rem;
+        vertical-align: middle;
+    }
+
+    #section-about-2 .section-2-about-content-1 .our-company img{
+        vertical-align: middle;
+        width: 15px;
+        height: 13px;
+
+    }
+
+    #section-about-2 .section-2-about-content-1 .our-company{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: default;
+        padding-top: 1rem;
+    }
+
+    #section-about-2{
+        padding-left: 1.5rem;
+    }
+
+
+    #section-about-2  .about-flex-1 .small-but-sharp h1{
+        font-size: 3.5rem;
+        cursor: default;
+    }
+
+    #section-about-2 .about-flex-1 .section-about-2-content-2 p{
+        font-size: 1.9rem;
+        cursor: default;
+        text-align: justify;
+    }
+
+    #section-about-2 .about-flex-1 .section-about-2-content-2 p br{
+        display: block;
+    }
+
+    #section-about-2  .about-flex-1 .section-about-2-content-2{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    #section-about-2  .about-flex-1 .flexing-2{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+    #section-about-2  .about-flex-1 .flexing-2 .pad{
+        padding-right: 1.5rem;
+    }
+
+    #section-about-2 .about-flex-1{
+        display: block;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+
+    #section-about-3{
+        background: #000;
+        padding-left: 1.5rem;
+        padding-right: 0rem;
+    }
+
+    #section-about-3 .how-we-do{
+        font-size: 1.8rem;
+        color: #fff;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        cursor: default;
+    }
+
+    #section-about-3 .about-flex-2 .our-philo h1{
+        font-size: 3.5rem;
+        cursor: default;
+        color: #fff;
+        padding-bottom: 2rem;
+    }
+
+    #section-about-3 .about-flex-2 .section-about-3-con-3 h3{
+        color: #fff;
+        font-size: 2rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        cursor: default;
+    }
+
+    #section-about-3 .about-flex-2 .section-about-3-con-3 p{
+        color: #fff;
+        font-size: 1.3rem;
+        padding-bottom: 1rem;
+        cursor: default;
+    }
+
+    #section-about-3 .about-flex-2 .section-about-3-con-3 p br{
+        display: block;
+    }
+
+    #section-about-3 .about-flex-2 .left{
+        padding-left: 0rem;
+    }
+
+    #section-about-3 .about-flex-2 {
+        display: block;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+    }
+
+    #section-about-3 .about-flex-3 .section-about-3-con-3 h3{
+        color: #fff;
+        font-size: 2rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        padding-right: 1.5rem;
+        cursor: default;
+    }
+
+    #section-about-3 .about-flex-3 .section-about-3-con-3 p{
+        color: #fff;
+        font-size: 1.3rem;
+        padding-bottom: 1rem;
+        padding-right: 1.5rem;
+        cursor: default;
+    }
+
+    #section-about-3 .about-flex-3 .section-about-3-con-3 p br{
+        display: block;
+    }
+
+
+
+    #section-about-3 .about-flex-3{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10rem;
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+
+
+
+    #section-about-4{
+        background-color: #000;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+
+    #section-about-4 .line{
+        width: 100%;
+        height: 0.1rem;
+        background: #4eff2f;
+    } 
+
+
+    #section-about-4 .years-of-experience{
+        font-size: 1.8rem;
+        padding-bottom: 5rem;
+        padding-top: 2rem;
+        color: #fff;
+        cursor: default;
+    }
+
+    #section-about-4 .section-3-content p{
+        font-size: 2.8rem;
+        color: #fff;
+        cursor: default;
+    }
+
+    #section-about-4 .section-3-content p br{
+        display: none;
+    }
+
+    #section-about-4 .img-box .client-logo{
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+
+    #section-about-4 .img-box-1{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    }
+
+    #section-about-4 .img-box-1 .client-logo-2{
+        width: 10%;
+    }
+
+    #section-about-4 .img-box-3 .client-logo-3{
+        width: 30%;
+    }
+
+    #section-about-4 .img-box-2 .client-logo-4{
+        width: 25%;
+    }
+
+    #section-about-4 .img-box-2 .client-logo-5{
+        width: 25%;
+    }
+
+    #section-about-4 .img-box-2{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    }
+
+
+
+    #section-about-4 .img-box-3{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    }
+
+
+    #section-about-4 .img-box img{
+        display: block;
+        margin-right: 2rem;
+    }
+
+    #section-about-4 .img-box{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #section-about-4 .main-flex-3{
+        display: block;
+        justify-content: space-between;
+    }
+
+
+
+/* -------------------------   Approach Page Styling   ----------------------- */
+
+    #section-approach-1 .section-approach-1-con-1 h1{
+        font-size: 4.7rem;
+    }
+
+    #section-approach-1 .section-approach-1-con-1 p{
+        font-size: 2.1rem;
+        padding-top: 1rem;
+    }
+
+    #section-approach-1 .section-approach-1-con-1 p br{
+        display: block;
+    }
+
+    #section-approach-1 .section-approach-1-con-1{
+    margin-top: 13rem;
+    margin-bottom: 8rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    cursor: default;
+    }
+
+
+
+    #section-approach-2{
+        padding-left: 1.5rem;
+    }
+
+    #section-approach-2 .section-2-approach-content-1 .line{
+        width: 100vw;
+        height: 0.2rem;
+        margin-right: 1.5rem;
+        background: #4eff2f;
+    }
+
+    #section-approach-2 .section-2-approach-content-1 .how-its-work h3{
+        display: inline-block;
+        font-size: 1.8rem;
+        padding-left: 0.4rem;
+        padding-right: 0.5rem;
+        vertical-align: middle;
+    }
+
+    #section-approach-2 .section-2-approach-content-1 .how-its-work img{
+        vertical-align: middle;
+        width: 15px;
+        height: 13px;
+    }
+
+
+    #section-approach-2 .section-2-approach-content-1 .how-its-work{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        cursor: default;
+        padding-top: 1rem
+    }
+
+
+    #section-approach-2 .approach-flex-1 .our-pro h1{
+        font-size: 3.5rem;
+        cursor: default;
+    }
+
+    #section-approach-2 .approach-flex-1 .section-approach-2-con-1 h2{
+        font-size: 2.5rem;
+        padding-top: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-approach-2 .approach-flex-1 .section-approach-2-con-1 p{
+        font-size: 1.3rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: justify;
+    }
+
+    #section-approach-2 .approach-flex-1 .section-approach-2-con-1 p br{
+        display: block;
+    }
+
+    #section-approach-2 .approach-flex-1 .left{
+        margin-left: 0rem;
+    }
+
+    #section-approach-2 .approach-flex-1{
+        display: block;
+        justify-content: space-around;
+        padding-top: 3rem;
+    }
+
+    #section-approach-2 .approach-flex-2 .section-approach-2-con-2 h2{
+        font-size: 2.5rem;
+        padding-top: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-approach-2 .approach-flex-2 .section-approach-2-con-2 p{
+        font-size: 1.3rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: justify;
+    }
+
+    #section-approach-2 .approach-flex-2 .section-approach-2-con-2 p br{
+        display: block;
+    }
+
+    #section-approach-2 .approach-flex-2{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    #section-approach-2 .approach-flex-3 .section-approach-2-con-3 h2{
+        font-size: 2.5rem;
+        padding-top: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-approach-2 .approach-flex-3 .section-approach-2-con-3 p{
+        font-size: 1.3rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: justify;
+    }
+
+    #section-approach-2 .approach-flex-3 .section-approach-2-con-3 p br{
+        display: block;
+    }
+
+    #section-approach-2 .approach-flex-3{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 2rem;
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+
+
+    #section-approach-3{
+        background: #000;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-approach-3 .services{
+        font-size: 1.8rem;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+        cursor: default;
+        color: #fff;
+    }
+
+    #section-approach-3 .approach-flex-4 h1{
+        font-size: 3.5rem;
+        cursor: default;
+        color: #fff;
+    }
+
+    #section-approach-3 .approach-flex-4 .section-approach-3-con-1 h3{
+        font-size: 2.5rem;
+        padding-top: 1.5rem;
+        color: #fff;
+    }
+
+    #section-approach-3 .approach-flex-4 .section-approach-3-con-1 p{
+        font-size: 1.3rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        color: #fff;
+        text-align: justify;
+    }
+
+    #section-approach-3 .approach-flex-4 .section-approach-3-con-1 p br{
+        display: block;
+    }
+
+    #section-approach-3 .approach-flex-4{
+        display: block;
+        justify-content: space-around;
+    }
+
+    #section-approach-3 .approach-flex-4 .left{
+        margin-left: 0rem;
+    }
+
+    #section-approach-3 .approach-flex-5 .section-approach-3-con-2 h3{
+        font-size: 2.5rem;
+        padding-top: 1.5rem;
+        color: #fff;
+    }
+
+    #section-approach-3 .approach-flex-5 .section-approach-3-con-2 p{
+        font-size: 1.3rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        color: #fff;
+        text-align: justify;
+    }
+
+    #section-approach-3 .approach-flex-5 .section-approach-3-con-2 p br{
+        display: block;
+    }
+
+    #section-approach-3 .approach-flex-5{
+        display: flex;
+        width: 100%;
+        margin-left: 0rem;
+        padding-bottom: 2rem;
+    }
+
+
+    #section-approach-4{
+        padding-left: 1.5rem;
+    }
+
+    #section-approach-4 .section-approach-4-content-1 .line{
+        width: 100vw;
+        height: 0.2rem;
+        margin-right: 1.5rem;
+        background: #4eff2f;
+        align-self: center;
+    }
+
+    #section-approach-4 .section-approach-4-content-1 .servicess h3{
+        display: inline-block;
+        font-size: 1.8rem;
+        padding-right: 0.5rem;
+        padding-left: 0.4rem;
+        vertical-align: middle;
+    }
+
+    #section-approach-4 .section-approach-4-content-1 .servicess img{
+        vertical-align: middle;
+        width: 15px;
+        height: 13px;
+    }
+
+
+    #section-approach-4 .section-approach-4-content-1 .servicess{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        cursor: default;
+        padding-top: 1.5rem
+    }
+
+
+    #section-approach-4 .approach-flex-6 h1{
+        font-size: 3.5rem
+    }
+
+    #section-approach-4  .approach-flex-6 .section-approach-4-con-1 h2{
+        font-size: 2.5rem;
+        padding-top: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-approach-4 .approach-flex-6 .section-approach-4-con-1 p{
+        font-size: 1.3rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: justify;
+    }
+
+    #section-approach-4 .approach-flex-6 .section-approach-4-con-1 p br{
+        display: block;
+    }
+
+    #section-approach-4 .approach-flex-6{
+        display: block;
+        justify-content: space-around;
+        padding-top: 1.5rem;
+    }
+
+    #section-approach-4 .approach-flex-6 .left{
+        margin-left: 0rem;
+    }
+
+    #section-approach-4 .approach-flex-7 .section-approach-4-con-2 h2{
+        font-size: 2.5rem;
+        padding-top: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-approach-4 .approach-flex-7 .section-approach-4-con-2 p{
+        font-size: 1.3rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: justify;
+    }
+
+    #section-approach-4 .approach-flex-7 .section-approach-4-con-2 p br{
+        display: block;
+    }
+
+    #section-approach-4 .approach-flex-7{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-left: 0rem;
+        padding-bottom: 2rem;
+    }
+
+
+
+/* --------------------------   Contact Page Styling   ------------------------- */
+
+
+    #contact .section-contact-1-con-1 h1{
+        font-size: 4.7rem;
+        font-weight: 600;
+        color: #000;
+    }
+
+    #contact .section-contact-1-con-1 p{
+        font-size: 2.1rem;
+        color: #000;
+        padding-top: 1rem;
+    }
+
+    #contact .section-contact-1-con-1 p br{
+        display: block;
+    }
+
+    #contact .section-contact-1-con-1{
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    cursor: default;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    }
+
+    .line-contact{
+        width: 100%;
+        margin: 0 auto;
+        height: 2px;
+        background: #4eff2f;
+    }
+
+
+/* --------------------------   Terms Page Styling   ------------------------- */
+    #section-terms-1{
+        padding-bottom: 8rem;
+        margin-top: 9rem;
+        padding-left: 1.5rem;
+        line-height: 2;
+        padding-right: 1.5rem;
+    }
+
+    #section-terms-1 h1{
+        font-size: 4.7rem;
+        cursor: default;
+        font-weight: 600;
+    }
+
+    #section-terms-1  h2{
+        font-size: 3.5rem;
+        margin-top: 2rem;
+        font-weight: 600;
+        cursor: default;
+    }
+
+    #section-terms-1  p{
+        font-size: 1.8rem;
+        font-weight: 600;
+        cursor: default;
+        text-align: justify;
+    }
+
+    #section-terms-1  p br{
+        display: none;
+    }
+
+    #section-terms-1  ol li{
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        list-style-position: inside;
+        cursor: default;
+        text-align: justify;
+    }
+
+    #section-terms-1  ol li br{
+        display: none;
+    }
+
+/* --------------------------   Privacy Policy Page Styling   ------------------------- */
+
+    #section-privacy-policy{
+        padding-bottom: 10rem;
+        padding-left: 1.5rem;
+        margin-top: 12rem;
+        padding-right: 1.5rem;
+    }
+
+    #section-privacy-policy h1{
+        font-size: 4.7rem;
+        font-weight: 600;
+        margin-bottom: 5rem;
+        cursor: default;
+    }
+
+    #section-privacy-policy  .border{
+        border-top: 2px solid #000;
+        display: inline-block;
+        font-size: 1.8rem;
+        font-weight: 600;
+        padding-bottom: 1.5rem;
+        cursor: default;
+    }
+
+    #section-privacy-policy  p{
+        font-size: 1.8rem;
+        font-weight: 600;
+        padding-top: 1.5rem;
+        cursor: default;
+        text-align: justify;
+    }
+
+    #section-privacy-policy  p br{
+        display: block;
+    }
+ 
+
+}
+
+
+@media only screen and (min-width:1025px) and (max-width:1268px){
+
+    #section-6 .section-6-flex-1{
+        display: block;
+    }
+    
+    #section-6 .btn{
+        padding-left: 10rem;
+        padding-top: 5rem;
+    }
+    
+    #section-7 .bg-img p br{
+        display: none;
+    }
+    
+/* ################   Footer Styling   ################ */
+    
+    
+    
+    #footer .main-flex-6 .input-fields input{
+        width: 40rem;
+        height: 5rem;
+    }
+    
+    #footer .main-flex-6 textarea{
+        width: 40rem;
+        height: 20rem;
+    }
+    
+
+/* -----------------------   About page Styling   ---------------------------- */
+
+    #section-about-2 .about-flex-1{
+        display: block;
+    }
+
+
+    #section-about-3{
+        background: #000;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    #section-about-3 .how-we-do{
+        font-size: 2rem;
+        color: #fff;
+        padding-bottom: 4rem;
+        padding-top: 5rem;
+        cursor: default;
+        padding-left: 5rem;
+    }
+
+    #section-about-3 .about-flex-2 .our-philo h1{
+        font-size: 5rem;
+        cursor: default;
+        color: #fff;
+        padding-left: 5rem;
+    }
+
+
+
+    #section-about-3 .about-flex-2 .left{
+        padding-left: 0rem;
+    }
+
+    #section-about-3 .about-flex-2 {
+        display: block;
+        justify-content: space-between;
+        margin-bottom: 5rem;
+    }
+
+    #section-about-3 .about-flex-2 .flexing-3{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2rem;
+    }
+
+
+
+    #section-about-3 .about-flex-3{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 10rem;
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+
+/* -------------------------   Approach Page Styling   ----------------------- */
+
+    #section-approach-2{
+        padding-left: 0rem;
+    }
+
+    #section-approach-2 .section-2-approach-content-1{
+        padding-left: 5rem;
+    }
+
+    #section-approach-2 .approach-flex-1 .our-pro h1{
+        font-size: 5rem;
+        cursor: default;
+        padding-left: 5rem;
+    }
+
+    #section-approach-2 .approach-flex-1 .flexing-5{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2rem;
+    }
+
+
+    #section-approach-2 .approach-flex-1 .section-approach-2-con-1 h2 br{
+        display: none;
+    }
+
+
+    #section-approach-2 .approach-flex-1 .left{
+        margin-left: 0rem;
+    }
+
+    #section-approach-2 .approach-flex-1{
+        display: block;
+        justify-content: space-around;
+        padding-top: 3rem;
+    }
+
+
+    #section-approach-2 .approach-flex-2 .section-approach-2-con-2 h2 br{
+        display: none;
+    }
+
+    #section-approach-2 .approach-flex-2 .section-approach-2-con-2 p{
+        font-size: 1.8rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-right: 0rem;
+    }
+
+    #section-approach-2 .approach-flex-2{
+        display: flex;
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    #section-approach-2 .approach-flex-3 .section-approach-2-con-3 h2 br{
+        display: none;
+    }
+
+    #section-approach-2 .approach-flex-3 .section-approach-2-con-3 p{
+        padding-right: 0rem;
+    }
+
+    #section-approach-2 .approach-flex-3{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 5rem;
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+
+
+    #section-approach-3{
+        background: #000;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    #section-approach-3 .services{
+        font-size: 2rem;
+        padding-bottom: 2rem;
+        padding-top: 3rem;
+        cursor: default;
+        color: #fff;
+        padding-left: 5rem;
+    }
+
+    #section-approach-3 .approach-flex-4 h1{
+        font-size: 5rem;
+        cursor: default;
+        color: #fff;
+        padding-left: 5rem;
+    }
+
+    #section-approach-3 .approach-flex-4 .flexing-6{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2rem;
+    }
+
+    #section-approach-3 .approach-flex-4 .section-approach-3-con-1 h3{
+        font-size: 3.2rem;
+        padding-top: 2rem;
+        color: #fff;
+    }
+
+    #section-approach-3 .approach-flex-4 .section-approach-3-con-1 p{
+        font-size: 1.8rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        color: #fff;
+    }
+
+    #section-approach-3 .approach-flex-4{
+        display: block;
+        justify-content: space-around;
+    }
+
+    #section-approach-3 .approach-flex-4 .left{
+        margin-left: 0rem;
+    }
+
+    #section-approach-3 .approach-flex-5{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-left: 0rem;
+        padding-bottom: 5rem;
+    }
+
+
+    #section-approach-4{
+        padding-left: 0rem;
+    }
+
+    #section-approach-4 .section-approach-4-content-1 .line{
+        width: 100vw;
+        height: 0.2rem;
+        margin-right: 5rem;
+        background: #4eff2f;
+        align-self: center;
+    }
+
+    #section-approach-4 .section-approach-4-content-1 .servicess h3{
+        display: inline-block;
+        font-size: 2.2rem;
+        padding-right: 0.5rem;
+        padding-left: 0.9rem;
+        vertical-align: middle;
+    }
+
+    #section-approach-4 .section-approach-4-content-1{
+        padding-left: 5rem;
+    }
+
+    #section-approach-4 .section-approach-4-content-1 .servicess img{
+        vertical-align: middle;
+    }
+
+
+    #section-approach-4 .section-approach-4-content-1 .servicess{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        cursor: default;
+        padding-top: 2rem
+    }
+
+
+    #section-approach-4 .approach-flex-6 h1{
+        font-size: 5rem;
+        padding-left: 5rem;
+    }
+
+    #section-approach-4 .approach-flex-6 .flexing-7{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2rem;
+    }
+
+
+    #section-approach-4 .approach-flex-6{
+        display: block;
+    }
+
+    #section-approach-4 .approach-flex-6 .left{
+        margin-left: 0rem;
+    }
+
+    #section-approach-4 .approach-flex-7 .section-approach-4-con-2 p{
+        padding-right: 0rem;
+    }
+
+    #section-approach-4 .approach-flex-7{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-left: 0rem;
+        padding-bottom: 5rem;
+    }
+
+
+   
+}
+
